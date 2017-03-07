@@ -1,0 +1,22 @@
+/*! float-tech.css © yamoo9.net, 2017 */
+
+:root {
+  --white: #ffffff;
+  --beige: #f7dcd5;
+  --light-tan: #fbf3e3;
+  --light-khaki: #f8e8da;
+  --pale-grey: #f6f8f8;
+  --light-tan-two: #faebd7;
+  --light-khaki-two: #fbf6e4;
+  --beige-two: #faeae9;
+  --very-light-pink: #fdf8f1;
+  --pale-grey-two: #eadfe9;
+  --pale-grey-three: #f2f6f5;
+  --beige-three: #faebea;
+  --light-tan-three: #fbf1e3;
+}
+
+body {
+  margin: 0;
+}
+
