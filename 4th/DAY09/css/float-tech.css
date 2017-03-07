@@ -20,3 +20,49 @@ body {
   margin: 0;
 }
 
+.icon-box-container {}
+
+.icon-box {
+  float: left;
+  width: 25%;
+  /*height: 16.666666667vh;*/
+  height: 170px;
+  background: #fff;
+}
+
+.beige {
+  background: #f7dcd5;
+}
+.light-tan {
+  background: #fbf3e3;
+}
+.light-khaki {
+  background: #f8e8da;
+}
+.pale-grey {
+  background: #f6f8f8;
+}
+.light-tan-two {
+  background: #faebd7;
+}
+.light-khaki-two {
+  background: #fbf6e4;
+}
+.beige-two {
+  background: #faeae9;
+}
+.very-light-pink {
+  background: #fdf8f1;
+}
+.pale-grey-two {
+  background: #eadfe9;
+}
+.pale-grey-three {
+  background: #f2f6f5;
+}
+.beige-three {
+  background: #faebea;
+}
+.light-tan-three {
+  background: #fbf1e3;
+}
