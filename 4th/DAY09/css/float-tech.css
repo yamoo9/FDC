@@ -28,6 +28,12 @@ body {
   /*height: 16.666666667vh;*/
   height: 170px;
   background: #fff;
+  text-align: center;
+}
+
+.icon-box img {
+  margin-top: 40px;
+  -webkit-filter: seturate(10%);
 }
 
 .beige {
