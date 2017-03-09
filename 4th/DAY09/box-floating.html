@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <title>CSS 플로팅 이해</title>
+  <style>
+  body {
+    margin: 4rem;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #eee;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+
+  .red {
+    color: #fe4940;
+    border-color: currentColor;
+  }
+
+  .green {
+    color: #30cb92;
+    border-color: currentColor;
+  }
+
+  .blue {
+    color: #7283dd;
+    border-color: currentColor;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  }
+
+  .clear {
+    clear: both;
+  }
+  /*.parent {overflow: hidden;}*/
+  /*.parent::before {
+      content: 'first-child';
+    }*/
+
+  .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="clearfix">
+    <div class="red box fl">red</div>
+    <div class="green box fl">green</div>
+    <div class="blue box fl">blue</div>
+  </div>
+</body>
+
+</html>
