@@ -1,0 +1,40 @@
+/*! album-style.css © yamoo9.net, 2017 */
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, #aaa, #111 70%);
+}
+.album {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.album * {
+  position: absolute;
+}
+.album__disk {
+  right: -50px;
+}
+.album__disk.is-rotate {
+  animation: rotate-disk 5s infinite backwards;
+}
+
+@keyframes rotate-disk {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.album__vynil {
+  left: 250px;
+  top: -4px;
+}
+.album__cover {
+  box-shadow: 0 12px 15px hsla(0, 0%, 0%, 0.4);
+  border-radius: 3px;
+}
