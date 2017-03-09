@@ -1,16 +1,13 @@
 /*! positioning.css © yamoo9.net, 2017 */
-
 body {
   margin: 0;
 }
-
 .parent-box {
   box-sizing: border-box;
   position: relative;
   height: 100vh;
   border: 10px solid #e4e4e4;
 }
-
 .box {
   width: 200px;
   height: 180px;
@@ -18,20 +15,22 @@ body {
   text-align: center;
   line-height: 180px;
 }
-
 .box:nth-child(1) {
   z-index: 20;
-  background: #7045cf;}
+  background: #7045cf;
+}
 .box:nth-child(2) {
   z-index: 10;
-  background: #ffd219;}
+  background: #ffd219;
+}
 .box:nth-child(3) {
   z-index: 40;
-  background: #3fb5c8;}
+  background: #3fb5c8;
+}
 .box:nth-child(4) {
   z-index: 30;
-  background: #fe4940;}
-
+  background: #fe4940;
+}
 .vertex-lt {
   position: absolute;
   left: 0;
@@ -52,7 +51,6 @@ body {
   right: 0;
   bottom: 0;
 }
-
 .center-box {
   position: absolute;
   /*width: auto;*/
@@ -63,27 +61,23 @@ body {
   left: 0;
   margin: auto;
 }
-
 .target {
   position: relative;
   display: inline-block;
-  margin-left: 100px;
-  margin-top: 100px;
   text-decoration: none;
-  color: #3fb5c8;
+  color: #fff;
 }
-
 .target::after {
   content: '';
   position: absolute;
   top: 0;
   right: 50%;
-  bottom: 0;
+  bottom: 42%;
   left: 50%;
-  border-bottom: 1px solid #3fb5c8;
-  transition: left 0.4s ease-out, right 0.4s ease-out 0.4s;
+  border-bottom: 5px solid #fff;
+  transition: all 0.4s ease-out;
+  /*transition: left 0.4s ease-out, right 0.4s ease-out 0.4s;*/
 }
-
 .target:hover::after {
   right: 0;
   left: 0;
