@@ -10,8 +10,10 @@
 1. [2017.02.16](./DAY04/README.md) &nbsp; ⌲ &nbsp; 웹 타이포그래피 Part 2.
 1. [2017.02.21](./DAY05/README.md) &nbsp; ⌲ &nbsp; 웹 타이포그래피 Part 3.
 1. [2017.02.23](./DAY06/README.md) &nbsp; ⌲ &nbsp; 웹 타이포그래피 Part 4.
-1. [2017.02.28](./DAY07/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 1.
-1. [2017.03.02](./DAY08/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 2.
+1. [2017.02.28](./DAY07/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 1. 박스 모델(Box Model)
+1. [2017.03.02](./DAY08/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 2. 화면 표시(View)
+1. [2017.03.07](./DAY09/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 3. 플로팅(Floating)
+1. [2017.03.09](./DAY10/README.md) &nbsp; ⌲ &nbsp; 웹 레이아웃 디자인 Part 4. 포지셔닝(Positioning)
 
 ---
 
