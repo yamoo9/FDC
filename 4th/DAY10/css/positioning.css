@@ -81,7 +81,7 @@ body {
   bottom: 0;
   left: 50%;
   border-bottom: 1px solid #3fb5c8;
-  transition: 0.4s cubic-bezier(0.12, 0.05, 0.11, 1.03);
+  transition: left 0.4s ease-out, right 0.4s ease-out 0.4s;
 }
 
 .target:hover::after {
