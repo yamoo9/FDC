@@ -1,0 +1,52 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, #000f26, #021f47 80%);
+  position: relative;
+}
+.poster {
+  transform: scale(0.68);
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url(../images/bg.jpg);
+}
+.poster * {
+  position: absolute;
+}
+.soundtrac {
+  top: 35px;
+  left: 166px;
+}
+.disney-pixar {
+  top: 88px;
+  left: 362px;
+}
+.logo {
+  top: 123px;
+  left: 107px;
+}
+.eve {
+  top: 300px;
+  left: 570px;
+}
+.m-o {
+  top: 698px;
+  left: 202px;
+}
+.wall-e {
+  top: 344px;
+  left: 263px;
+}
+.music-composed {
+  top: 930px;
+  left: 150px;
+}

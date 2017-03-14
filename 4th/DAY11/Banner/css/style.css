@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  background: radial-gradient(#000, #46353f 80%);
+}
+.banner {
+  overflow: hidden;
+  position: absolute;
+  width: 800px;
+  height: 320px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url(../images/BG.jpg);
+  box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.4);
+}
+.banner * {
+  position: absolute;
+}
+.logo {
+  top: 18px;
+  left: 18px;
+}
+.title {}
+.title p {
+  width: 300px;
+  height: 68px;
+  font-style: italic;
+  font-size: 2.3rem;
+  line-height: 0.8em;
+  letter-spacing: -0.002em;
+  color: #fff;
+  text-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.4);
+  top: 36px;
+  left: 122px;
+}
+.title p span {
+  padding-top: 8px;
+  left: -5px;
+}
+.kingkong {
+  top: 28px;
+  left: 491px;
+}
+.golliras {
+  top: 109px;
+  left: 12px;
+}
+.apes {
+  top: 169px;
+  left: 4px;
+}
