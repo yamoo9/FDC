@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  overflow-y: hidden;
+}
 img {
   vertical-align: top;
 }
 .wrap {
+  overflow: hidden;
+  transform: scale(0.6) translateY(-320px);
   position: relative;
   width: 700px;
   height: 1000px;
@@ -18,6 +23,7 @@ img {
   margin: 79px 0 0 37px;
 }
 .part_contents .heroine {
+  position: relative;
   height: 25px;
   padding-left: 30px;
 }
@@ -87,6 +93,35 @@ img {
 }
 .part_image {
   position: absolute;
-  right: 0;
+  right: -500px;
   top: 20px;
+  transition: right 0.45s ease-out;
+}
+
+/* State Design */
+.wrap.fin .part_image,
+.wrap:hover .part_image {
+  right: 0;
+}
+
+.heroine img {
+  position: absolute;
+  top: -400px;
+}
+.heroine img:first-child {
+  left: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+.heroine img:last-child {
+  left: 140px;
+  transition: all 0.3s ease-out 0.3s;
+}
+
+.wrap.fin .heroine img:first-child,
+.wrap:hover .heroine img:first-child {
+  top: 0px;
+}
+.wrap.fin .heroine img:last-child,
+.wrap:hover .heroine img:last-child {
+  top: 0px;
 }
