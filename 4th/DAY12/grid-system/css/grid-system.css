@@ -1,6 +1,24 @@
 @charset "utf-8";
 /*! grid-system.css © yamoo9.net, 2017 */
 
+.grid-toggle-btn {
+  cursor: pointer;
+  position: fixed;
+  z-index: 10000;
+  top: 10px;
+  right: 10px;
+  border: none;
+  padding: 1em 2em;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.grid-toggle-btn:hover,
+.grid-toggle-btn:focus {
+  background: #fe4940;
+}
+
 .show-grid {
   position: relative;
 }
