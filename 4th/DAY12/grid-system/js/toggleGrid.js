@@ -10,4 +10,9 @@
   toggle_btn.onclick = function(e) {
     body.classList.toggle('show-grid');
   };
+  document.onkeyup = function(e) {
+    if (e.keyCode === 71 && e.shiftKey) {
+      body.classList.toggle('show-grid');
+    }
+  };
 })(window);
