@@ -1,6 +1,11 @@
 @charset "utf-8";
 /*! grid-system.css © yamoo9.net, 2017 */
 
+.show-grid {
+  background: linear-gradient(transparent 23px, hsla(23, 40%, 73%, 0.78) 23px);
+  background-size: 1px 24px;
+}
+
 /**
  * --------------------------------
  * container module
@@ -10,8 +15,17 @@
   margin-left: auto;
   margin-right: auto;
 }
-.container.show-grid {
-  background: url("../images/960__10-60-10.png");
+.show-grid .container {
+  /* 실제 이미지 사용 방법 */
+  /* background: url("../images/960__10-60-10.png"); */
+  /* CSS 배경 이미지 기술 활용: 선형 그레디언트(linear-gradient) */
+  background: linear-gradient(
+    90deg,
+    transparent 10px,
+    hsla(32, 90%, 92%, 0.55) 10px, hsla(32, 90%, 92%, 0.55) 70px,
+    transparent 70px
+  );
+  background-size: 80px 1px;
   height: 200vh;
 }
 
