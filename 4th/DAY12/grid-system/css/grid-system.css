@@ -10,6 +10,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.container.show-grid {
+  background: url("../images/960__10-60-10.png");
+  height: 200vh;
+}
 
 /**
  * --------------------------------
