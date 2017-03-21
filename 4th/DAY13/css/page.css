@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*! page.css © yamoo9.net, 2017 */
+
+/**
+ * --------------------------------
+ * page-header
+ * #26d092
+ * 24px * 3 = 72px
+ * ----------------------------- */
+.page-header {
+  min-height: 72px;
+  background: #26d092;
+}
+
