@@ -1,6 +1,11 @@
 @charset "utf-8";
 /*! page.css © yamoo9.net, 2017 */
 
+html {
+  overflow-y: visible;
+  min-height: 200vh;
+}
+
 /**
  * --------------------------------
  * page-header
@@ -12,3 +17,15 @@
   background: #26d092;
 }
 
+.page-header .brand {
+  font-family: "Apple Chancery";
+  font-size: 1.875rem;
+  letter-spacing: -0.025em;
+}
+
+.brand a {
+  display: block;
+  margin-top: 21px;
+  text-decoration: none;
+  color: #fff;
+}

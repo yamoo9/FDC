@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*! 960gs.css © yamoo9.net, 2017 */
+
+.grid-toggle-btn {
+  cursor: pointer;
+  position: fixed;
+  z-index: 10000;
+  top: 10px;
+  right: 10px;
+  border: none;
+  padding: 1em 2em;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.grid-toggle-btn:hover,
+.grid-toggle-btn:focus {
+  background: #fe4940;
+}
+
+.show-grid {
+  position: relative;
+}
+
+.show-grid::before {
+  content: '';
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200vh;
+  background: linear-gradient(transparent 23px, hsla(23, 40%, 73%, 0.78) 23px);
+  background-size: 1px 24px;
+}
+
+/**
+ * --------------------------------
+ * container module
+ * ----------------------------- */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.show-grid .container {
+  position: relative;
+}
+.show-grid .container::before {
+  content: '';
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200vh;
+  /* 실제 이미지 사용 방법 */
+  /* background: url("../images/960__10-60-10.png"); */
+  /* CSS 배경 이미지 기술 활용: 선형 그레디언트(linear-gradient) */
+  background: linear-gradient(
+    90deg,
+    transparent 10px,
+    hsla(32, 90%, 92%, 0.55) 10px, hsla(32, 90%, 92%, 0.55) 70px,
+    transparent 70px
+  );
+  background-size: 80px 1px;
+}
+
+/**
+ * --------------------------------
+ * row module
+ * ----------------------------- */
+.row::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/**
+ * --------------------------------
+ * column module
+ * ----------------------------- */
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.col-1  { width: 60px;  }
+.col-2  { width: 140px; }
+.col-3  { width: 220px; }
+.col-4  { width: 300px; }
+.col-5  { width: 380px; }
+.col-6  { width: 460px; }
+.col-7  { width: 540px; }
+.col-8  { width: 620px; }
+.col-9  { width: 700px; }
+.col-10 { width: 780px; }
+.col-11 { width: 860px; }
+.col-12 { width: 940px; }
+
+/**
+ * --------------------------------
+ * push module
+ * ----------------------------- */
+.push-1  { margin-left: 90px;  }
+.push-2  { margin-left: 170px; }
+.push-3  { margin-left: 250px; }
+.push-4  { margin-left: 330px; }
+.push-5  { margin-left: 410px; }
+.push-6  { margin-left: 490px; }
+.push-7  { margin-left: 570px; }
+.push-8  { margin-left: 650px; }
+.push-9  { margin-left: 730px; }
+.push-10 { margin-left: 810px; }
+.push-11 { margin-left: 890px; }
+.push-12 { margin-left: 970px; }
+
+/**
+ * --------------------------------
+ * pre, post module
+ * ----------------------------- */
+.pre-1, .pre-2, .pre-3, .pre-4, .pre-5, .pre-6,
+.pre-7, .pre-8, .pre-9, .pre-10, .pre-11, .pre-12,
+.post-1, .post-2, .post-3, .post-4, .post-5, .post-6,
+.post-7, .post-8, .post-9, .post-10, .post-11, .post-12 {
+  position: relative;
+}
+
+.pre-1  { left: 80px;  }
+.pre-2  { left: 160px; }
+.pre-3  { left: 240px; }
+.pre-4  { left: 320px; }
+.pre-5  { left: 400px; }
+.pre-6  { left: 480px; }
+.pre-7  { left: 560px; }
+.pre-8  { left: 640px; }
+.pre-9  { left: 720px; }
+.pre-10 { left: 800px; }
+.pre-11 { left: 880px; }
+.pre-12 { left: 960px; }
+
+.post-1  { right: 80px;  }
+.post-2  { right: 160px; }
+.post-3  { right: 240px; }
+.post-4  { right: 320px; }
+.post-5  { right: 400px; }
+.post-6  { right: 480px; }
+.post-7  { right: 560px; }
+.post-8  { right: 640px; }
+.post-9  { right: 720px; }
+.post-10 { right: 800px; }
+.post-11 { right: 880px; }
+.post-12 { right: 960px; }
