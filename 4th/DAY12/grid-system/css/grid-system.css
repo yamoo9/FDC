@@ -100,3 +100,57 @@
 .col-10 { width: 780px; }
 .col-11 { width: 860px; }
 .col-12 { width: 940px; }
+
+/**
+ * --------------------------------
+ * push module
+ * ----------------------------- */
+.push-1  { margin-left: 90px;  }
+.push-2  { margin-left: 170px; }
+.push-3  { margin-left: 250px; }
+.push-4  { margin-left: 330px; }
+.push-5  { margin-left: 410px; }
+.push-6  { margin-left: 490px; }
+.push-7  { margin-left: 570px; }
+.push-8  { margin-left: 650px; }
+.push-9  { margin-left: 730px; }
+.push-10 { margin-left: 810px; }
+.push-11 { margin-left: 890px; }
+.push-12 { margin-left: 970px; }
+
+/**
+ * --------------------------------
+ * pre, post module
+ * ----------------------------- */
+.pre-1, .pre-2, .pre-3, .pre-4, .pre-5, .pre-6,
+.pre-7, .pre-8, .pre-9, .pre-10, .pre-11, .pre-12,
+.post-1, .post-2, .post-3, .post-4, .post-5, .post-6,
+.post-7, .post-8, .post-9, .post-10, .post-11, .post-12 {
+  position: relative;
+}
+
+.pre-1  { left: 80px;  }
+.pre-2  { left: 160px; }
+.pre-3  { left: 240px; }
+.pre-4  { left: 320px; }
+.pre-5  { left: 400px; }
+.pre-6  { left: 480px; }
+.pre-7  { left: 560px; }
+.pre-8  { left: 640px; }
+.pre-9  { left: 720px; }
+.pre-10 { left: 800px; }
+.pre-11 { left: 880px; }
+.pre-12 { left: 960px; }
+
+.post-1  { right: 80px;  }
+.post-2  { right: 160px; }
+.post-3  { right: 240px; }
+.post-4  { right: 320px; }
+.post-5  { right: 400px; }
+.post-6  { right: 480px; }
+.post-7  { right: 560px; }
+.post-8  { right: 640px; }
+.post-9  { right: 720px; }
+.post-10 { right: 800px; }
+.post-11 { right: 880px; }
+.post-12 { right: 960px; }
