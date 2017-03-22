@@ -71,7 +71,8 @@
  * --------------------------------
  * row module
  * ----------------------------- */
-.row::after {
+.row::after,
+.clearfix::after {
   content: '';
   display: block;
   clear: both;

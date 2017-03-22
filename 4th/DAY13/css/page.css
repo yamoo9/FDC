@@ -6,6 +6,31 @@ html {
   min-height: 200vh;
 }
 
+body {
+  font-family: "Spoqa Han Sans";
+}
+
+.readable-hidden {
+  overflow: hidden;
+  position: absolute;
+  clip:     rect(0 0 0 0); /* IE 6,7 */
+  clip:     rect(0,0,0,0);
+  width:    1px;
+  height:   1px;
+  margin:   -1px;
+  border:   0;
+  padding:  0;
+}
+.readable-hidden.focusable:focus {
+  overflow: visible;
+  position: static;
+  clip:     auto;
+  width:    auto;
+  height:   auto;
+  margin:   0;
+}
+caption.readable-hidden { position: static; }
+
 /**
  * --------------------------------
  * page-header
@@ -28,4 +53,36 @@ html {
   margin-top: 21px;
   text-decoration: none;
   color: #fff;
+}
+
+/**
+ * --------------------------------
+ * gnb
+ * ----------------------------- */
+.gnb {
+  margin-top: 27px;
+  position: relative;
+  left: 18px;
+}
+.gnb li {
+  float: left;
+  margin-right: 43px;
+}
+.gnb li:last-child {
+  margin-right: 0;
+}
+.gnb a {
+  font-size: 22px;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  color: #fff;
+}
+
+/**
+ * --------------------------------
+ * page-banner
+ * ----------------------------- */
+.page-banner {
+  height: 336px;
+  background: #ffdede;
 }
