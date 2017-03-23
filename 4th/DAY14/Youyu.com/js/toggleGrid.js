@@ -2,7 +2,7 @@
 (function(global){
   'use strict';
   var document   = global.document;
-  var body       = document.querySelector('.container'); // document.body;
+  var body       = document.body;
   var toggle_btn = document.createElement('button');
   toggle_btn.classList.add('grid-toggle-btn');
   toggle_btn.innerHTML = 'toggle Grid';
