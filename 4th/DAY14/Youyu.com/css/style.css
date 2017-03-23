@@ -1,5 +1,9 @@
 /*! style.css © yamoo9.net, 2017 */
 
+body {
+  font-family: 'NanumSquare', sans-serif;
+}
+
 .a11y-hidden {
   overflow: hidden;
   position: absolute;
@@ -53,4 +57,83 @@ caption.a11y-hidden { position: static; }
 
 .login__link-login {
   margin-left: 18px;
+}
+
+.search-bar {
+  margin-top: 49px;
+  left: -102px;
+}
+
+#search {
+  width: 340px;
+  border: 2px solid #555656;
+  padding: 0.9285em;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: #999;
+}
+::-moz-placeholder {
+  color: #999;
+}
+:-ms-input-placeholder {
+  color: #999;
+}
+::input-placeholde {
+  color: #999;
+}
+
+/**
+ * --------------------------------
+ * gnb
+ * ----------------------------- */
+.gnb {
+  margin-top: 4px;
+}
+.gnb ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.gnb li {
+  float: left;
+}
+.gnb li:nth-child(1)  {margin-right: 21px;}
+.gnb li:nth-child(2)  {margin-right: 19px;}
+.gnb li:nth-child(3)  {margin-right: 16px;}
+.gnb li:nth-child(4)  {margin-right: 20px;}
+.gnb li:nth-child(5)  {margin-right: 18px;}
+.gnb li:nth-child(6)  {margin-right: 18px;}
+.gnb li:nth-child(7)  {margin-right: 20px;}
+.gnb li:nth-child(8)  {margin-right: 21px;}
+.gnb li:nth-child(9)  {margin-right: 22px;}
+.gnb li:nth-child(10) {margin-right: 13px;}
+.gnb li:nth-child(11) {margin-right: 20px;}
+
+.gnb a {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  padding: 0.3571em 1.0714em;
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all .15s linear;
+}
+.gnb a:hover,
+.gnb a:focus {
+  color: #c12c3f;
+  border-bottom-color: #b93949;
+}
+.gnb a:focus {
+  outline: none;
+}
+.gnb a:active {
+  border-radius: 2px;
+  border-bottom-color: #b93949;
+  background: #b93949;
+  color: #fff;
 }
