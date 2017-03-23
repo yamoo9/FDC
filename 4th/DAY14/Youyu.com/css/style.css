@@ -24,3 +24,33 @@ caption.a11y-hidden { position: static; }
 .brand {
   margin-top: 42px;
 }
+
+.login {
+  margin-top: 61px;
+}
+
+.login a {
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0.5571em 0.7142em 0.3571em;
+  color: #991717;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.login a:hover,
+.login a:focus {
+  border-color: #bd1d31;
+}
+.login a:focus {
+  outline: none;
+}
+
+.login__link-join {
+  margin-left: 2px;
+}
+
+.login__link-login {
+  margin-left: 18px;
+}
