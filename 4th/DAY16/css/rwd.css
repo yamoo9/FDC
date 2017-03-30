@@ -15,3 +15,17 @@
   background-position: center top;
   background-size: cover;
 }
+
+.rwd-content-clipping-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.rwd-content-clipping {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*width: 100%;*/
+  height: auto;
+  transform: translate(-50%, -50%);
+}
