@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"></meta>
+  <meta charset="UTF-8">
+  <title>유연한 그리드 시스템 레이아웃</title>
+  <link rel="stylesheet" href="css/fluid-layout.css">
+  <style>
+    body {
+      margin: 0;
+      font-size: 1rem;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+    .page {
+      margin-top: 100px;
+      max-width: 1280px;
+    }
+    .box {
+      font-size: 1.25rem;
+      color: #3e3e3e;
+    }/*
+    .boxes .is-1  { background: hsla(0, 60%, 55%, 1);   }
+    .boxes .is-2  { background: hsla(30, 60%, 55%, 1);  }
+    .boxes .is-3  { background: hsla(60, 60%, 55%, 1);  }
+    .boxes .is-4  { background: hsla(90, 60%, 55%, 1);  }
+    .boxes .is-5  { background: hsla(120, 60%, 55%, 1); }
+    .boxes .is-6  { background: hsla(150, 60%, 55%, 1); }
+    .boxes .is-7  { background: hsla(180, 60%, 55%, 1); }
+    .boxes .is-8  { background: hsla(210, 60%, 55%, 1); }
+    .boxes .is-9  { background: hsla(240, 60%, 55%, 1); }
+    .boxes .is-10 { background: hsla(270, 60%, 55%, 1); }
+    .boxes .is-11 { background: hsla(300, 60%, 55%, 1); }
+    .boxes .is-12 { background: hsla(330, 60%, 55%, 1); }*/
+    .headline { font-weight: 900; line-height: 1; }
+    .headline.is-1 { font-size: 5rem; }
+    .headline.is-2 { font-size: 4rem; }
+    .headline.is-3 { font-size: 3rem; }
+    .headline.is-4 { font-size: 2rem; }
+    .headline.is-5 { font-size: 1rem; }
+    .headline.is-6 { font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+
+  <div class="page container">
+    <div class="boxes columns">
+      <div class="box column is-5">
+        <h3 class="headline is-1">Liquid Layout</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati omnis odit ducimus, reprehenderit pariatur suscipit laboriosam fuga aut odio neque non, necessitatibus aliquam quidem, alias distinctio expedita veritatis perspiciatis totam!</p>
+      </div>
+      <div class="box column is-3">
+        <h2 class="headline is-4">Grid<br>System</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, fugiat?</p>
+      </div>
+      <div class="box column is-2 is-offset-2">
+        <p>Placeat quaerat mollitia sit impedit aut, quo explicabo! Lorem ipsum dolor sit.</p>
+        <h6 class="headline is-4">Modular Design</h6>
+        <p>Rerum dicta vero, expedita consequatur iure molestiae minus, repellendus dolorum ratione quisquam saepe earum itaque velit at iste, perferendis ad.</p>
+        <p>Voluptate aliquam, nisi dicta nam obcaecati impedit culpa cumque nobis repudiandae dignissimos architecto sit mollitia, facere, reiciendis pariatur quibusdam expedita.</p>
+        <p>Neque obcaecati quibusdam eligendi, sit dolorem perferendis illum quas ut, aut quo in voluptatibus delectus optio qui architecto voluptatem repellat.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
