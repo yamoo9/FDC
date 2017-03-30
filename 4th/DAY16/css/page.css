@@ -1,3 +1,10 @@
+.page-wrapper {
+  background: #fff;
+  margin-top: 100vh;
+  padding-top: 40px;
+  min-height: 200vh;
+}
+
 .page {
   max-width: 1360px;
   margin-top: 100px;
@@ -24,4 +31,30 @@
   left: 20px;
   color: #fff;
   text-shadow: 0 2px 2px #2a7acf;
+}
+
+.center-pos-woman {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("../images/john-towner-mini.jpg");
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.page-header-headline {
+  margin-top: 170px;
+}
+.slogan {
+  font-size: 0.9rem;
+}
+
+.page-header-headline,
+.slogan {
+  color: #fff;
+  text-shadow: 0 1px 10px #363732;
 }
