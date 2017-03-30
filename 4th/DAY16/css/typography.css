@@ -1,0 +1,8 @@
+.headline { font-weight: 900; line-height: 1; }
+.headline.is-1 { font-size: 5rem; }
+.headline.is-2 { font-size: 4rem; }
+.headline.is-3 { font-size: 3rem; }
+.headline.is-4 { font-size: 2rem; }
+.headline.is-5 { font-size: 1rem; }
+.headline.is-6 { font-size: 0.8rem; }
+.hairline {font-weight: 100;}

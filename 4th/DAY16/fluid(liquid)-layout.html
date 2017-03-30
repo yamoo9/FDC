@@ -4,48 +4,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge"></meta>
   <meta charset="UTF-8">
   <title>유연한 그리드 시스템 레이아웃</title>
+  <link rel="stylesheet" href="css/init.css">
   <link rel="stylesheet" href="css/fluid-layout.css">
-  <style>
-    body {
-      margin: 0;
-      font-size: 1rem;
-    }
-    h1, h2, h3, h4, h5, h6, p {
-      margin-top: 0;
-      margin-bottom: 1.5rem;
-    }
-    .page {
-      margin-top: 100px;
-      max-width: 1280px;
-    }
-    .box {
-      font-size: 1.25rem;
-      color: #3e3e3e;
-    }/*
-    .boxes .is-1  { background: hsla(0, 60%, 55%, 1);   }
-    .boxes .is-2  { background: hsla(30, 60%, 55%, 1);  }
-    .boxes .is-3  { background: hsla(60, 60%, 55%, 1);  }
-    .boxes .is-4  { background: hsla(90, 60%, 55%, 1);  }
-    .boxes .is-5  { background: hsla(120, 60%, 55%, 1); }
-    .boxes .is-6  { background: hsla(150, 60%, 55%, 1); }
-    .boxes .is-7  { background: hsla(180, 60%, 55%, 1); }
-    .boxes .is-8  { background: hsla(210, 60%, 55%, 1); }
-    .boxes .is-9  { background: hsla(240, 60%, 55%, 1); }
-    .boxes .is-10 { background: hsla(270, 60%, 55%, 1); }
-    .boxes .is-11 { background: hsla(300, 60%, 55%, 1); }
-    .boxes .is-12 { background: hsla(330, 60%, 55%, 1); }*/
-    .headline { font-weight: 900; line-height: 1; }
-    .headline.is-1 { font-size: 5rem; }
-    .headline.is-2 { font-size: 4rem; }
-    .headline.is-3 { font-size: 3rem; }
-    .headline.is-4 { font-size: 2rem; }
-    .headline.is-5 { font-size: 1rem; }
-    .headline.is-6 { font-size: 0.8rem; }
-  </style>
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/rwd.css">
+  <link rel="stylesheet" href="css/page.css">
+  <!-- <link rel="stylesheet" href="css/box-tester.css"> -->
 </head>
 <body>
 
   <div class="page container">
+
     <div class="boxes columns">
       <div class="box column is-5">
         <h3 class="headline is-1">Liquid Layout</h3>
@@ -59,10 +28,38 @@
         <p>Placeat quaerat mollitia sit impedit aut, quo explicabo! Lorem ipsum dolor sit.</p>
         <h6 class="headline is-4">Modular Design</h6>
         <p>Rerum dicta vero, expedita consequatur iure molestiae minus, repellendus dolorum ratione quisquam saepe earum itaque velit at iste, perferendis ad.</p>
-        <p>Voluptate aliquam, nisi dicta nam obcaecati impedit culpa cumque nobis repudiandae dignissimos architecto sit mollitia, facere, reiciendis pariatur quibusdam expedita.</p>
-        <p>Neque obcaecati quibusdam eligendi, sit dolorem perferendis illum quas ut, aut quo in voluptatibus delectus optio qui architecto voluptatem repellat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
     </div>
+
+    <div class="content columns boxes">
+      <div class="box column is-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste non, minima eligendi quam dolorum!</div>
+      <div class="box column is-2">Veritatis porro reprehenderit eius officiis ab ipsum sed incidunt esse aliquam possimus, consequuntur nulla.</div>
+      <div class="box column is-2">Maiores nesciunt nemo odit modi aliquid ullam nisi explicabo veniam, error, architecto excepturi quas.</div>
+      <div class="box column is-4">Qui commodi, sint blanditiis dicta a saepe itaque, aut laudantium harum eius quas asperiores.</div>
+      <div class="box column is-2">Eligendi cum ipsum numquam at a non, neque autem totam delectus adipisci quis dicta.</div>
+    </div>
+
+    <div class="content-image columns">
+      <div class="column is-4">
+        <img class="rwd-image" src="https://source.unsplash.com/category/nature" alt="Random">
+      </div>
+      <div class="column is-4">
+        <img class="rwd-image" src="https://source.unsplash.com/category/people" alt="Random">
+      </div>
+      <div class="column is-4">
+        <img class="rwd-image" src="https://source.unsplash.com/random" alt="Random">
+      </div>
+    </div>
+
+    <!-- <div class="content-image columns">
+      <div class="column is-8 is-offset-4">
+        <div class="rwd-bg-image sports">
+          <h4 class="headline is-1 hairline sports-headline">Sports is Live.</h4>
+        </div>
+      </div>
+    </div> -->
+
   </div>
 
 </body>

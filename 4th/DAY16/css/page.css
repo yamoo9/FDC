@@ -1,0 +1,27 @@
+.page {
+  max-width: 1360px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.content-image {
+  margin-top: 40px;
+}
+
+.sports {
+  position: relative;
+  padding-bottom: 40%;
+  background-image: url("http://lorempixel.com/1000/400/sports/5/");
+}
+
+.sports-headline {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  text-shadow: 0 2px 2px #2a7acf;
+}

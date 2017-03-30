@@ -1,0 +1,18 @@
+.box {
+  background-clip: content-box;
+  font-size: 1.25rem;
+  color: #3e3e3e;
+}
+
+.box.is-1  { background-color: hsla(0, 60%, 55%, 1);   }
+.box.is-2  { background-color: hsla(30, 60%, 55%, 1);  }
+.box.is-3  { background-color: hsla(60, 60%, 55%, 1);  }
+.box.is-4  { background-color: hsla(90, 60%, 55%, 1);  }
+.box.is-5  { background-color: hsla(120, 60%, 55%, 1); }
+.box.is-6  { background-color: hsla(150, 60%, 55%, 1); }
+.box.is-7  { background-color: hsla(180, 60%, 55%, 1); }
+.box.is-8  { background-color: hsla(210, 60%, 55%, 1); }
+.box.is-9  { background-color: hsla(240, 60%, 55%, 1); }
+.box.is-10 { background-color: hsla(270, 60%, 55%, 1); }
+.box.is-11 { background-color: hsla(300, 60%, 55%, 1); }
+.box.is-12 { background-color: hsla(330, 60%, 55%, 1); }

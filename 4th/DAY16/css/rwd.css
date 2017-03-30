@@ -1,0 +1,10 @@
+.rwd-image {
+  width: 100%;
+  height: auto;
+}
+
+.rwd-bg-image {
+  width: 100%;
+  background: no-repeat center;
+  background-size: cover;
+}
