@@ -1,0 +1,58 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+body *,
+body *::before,
+body *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: #ccc;
+}
+
+.columns {
+  font-size: 2.4rem;
+}
+
+.columns::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.column {
+  margin-bottom: 2rem;
+  padding: 3rem;
+  background: #aaa;
+}
+
+/* bp: 600px */
+@media only screen and (min-width: 600px) {
+  .column {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+    background-clip: content-box;
+  }
+}
+
+/* bp: 960px */
+@media only screen and (min-width: 960px) {
+  .column {
+    width: 25%;
+  }
+}
