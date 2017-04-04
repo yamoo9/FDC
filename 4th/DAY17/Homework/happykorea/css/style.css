@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+.a11y-hidden {
+    overflow: hidden;
+    position: absolute;
+    clip:     rect(0 0 0 0); /* IE 6,7 */
+    clip:     rect(0,0,0,0);
+    width:    1px;
+    height:   1px;
+    margin:   -1px;
+    border:   0;
+    padding:  0;
+}
+
+.a11y-hidden.focusable:focus {
+    overflow: visible;
+    position: static;
+    clip:     auto;
+    width:    auto;
+    height:   auto;
+    margin:   0;
+}
+
+caption.a11y-hidden { position: static; }
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* header 영역 */
+
+.logo {
+    margin-top: 48px;
+    margin-top: 4.8rem;
+    margin-bottom: 0;
+}
+
+.search-bar {
+    margin-top: 53px;
+}
+
+#search {
+    width:380px;
+    padding:10px;
+    border:3px solid #4b69a6;
+    box-sizing: border-box;
+}
+
+.search-bar button {
+    position: absolute;
+    top:3px;
+    right:3px;
+    width:35px;
+    height:35px;
+    background:url(../images/ico_search.png)no-repeat center center;
+    border:none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #999;
+  font-weight: bold;
+}
+
+::-moz-placeholder {
+  color: #999;
+  font-weight: bold;
+}
+
+:-ms-input-placeholder {
+  color: #999;
+  font-weight: bold;
+}
+
+::input-placeholde {
+  color: #999;
+  font-weight: bold;
+}
+
+.weather {
+    margin-top: 55px;
+    text-align: right;
+    font-weight: bold;
+    color:#4b69a6;
+}
+
+.weather li {margin-bottom:5px;}
+.weather .thumb {margin-right:5px;}
+.weather .thumb img {vertical-align: middle;}
+
+
+.page-nav {
+    margin-top: 5px;
+    background:#4b69a6;
+}
+
+.page-nav ul {
+    margin-bottom:0;
+}
+
+.page-nav li a {
+    display: block;
+    padding:14px 40px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+}
+
+.login_join {margin-top: 7px;}
+
+.login_join button {
+    margin-right:5px;
+    padding:4px 20px 6px 20px;
+    border-radius: 2px;
+    background:#5c81cc;
+    border:none;
+    font-weight: bold;
+    color:#fff;
+}
+
+
+/* main 영역 */
+.video {
+    position: relative;
+    width:780px;
+    height:441px;
+    margin-top:21px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
+
+.video h6 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display: block;
+    width:100%;
+    padding:42px 20px 21px 20px;
+    margin-bottom: 0;
+    font-size:18px;
+    color:#fff;
+    background: linear-gradient(rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0.4) 21px, rgba(0, 0, 0, 0.8));
+    box-sizing: border-box;
+}
+
+.plan-news {
+    margin-top: 22px;
+    margin-left: 0;
+}
+
+.plan-news h5 {color:#4e6ba5;}
+
+.plan-news li {margin-bottom:21px;}
+
+.plan-news .img-list {height:105px;}
+.plan-news .txt-list {height:42px;}
+
+.img-list .thumb, .today-news .thumb {
+    float: left;
+    margin-right: 10px;
+}
+
+.img-list .thumb, .today-news .thumb, .today-person .thumb {
+    border:1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.img-list .thumb img, .today-news .thumb img, .hako-news li img, .ad-banner img, .today-person .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.plan-news .thumb {
+    width: 169px;
+    height: 105px;
+}
+
+.plan-news h6, .plan-news p, .poll p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+.plan-news h6 {
+    padding-top: 1px;
+    margin-bottom:0;
+    font-size:18px;
+    line-height: 1.1666;
+    -webkit-line-clamp: 1;
+}
+
+.plan-news .img-list p {
+    -webkit-line-clamp: 4;
+}
+
+.plan-news .txt-list p {
+    -webkit-line-clamp: 1;
+}
+
+.hako-news {
+    margin-top:21px;
+    margin-right:0;
+}
+
+.hako-news li {
+    position:relative;
+    width:220px;
+    margin-bottom: 21px;
+    height: 147px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.hako-news h6 {
+    display: block;
+    position: absolute;
+    bottom:-2px;
+    left:0;
+    right:0;
+    width:100%;
+    padding:5px 10px 3px 10px;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    color:#fff;
+    box-sizing: border-box;
+}
+
+
+.side-contents {
+    margin-top:21px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.side-contents h5 {
+    padding:10px;
+    color:#4e6ba5;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.side-contents h6 {
+    margin-bottom:  0;
+}
+
+.side-contents p {
+    font-size: 12px;
+    line-height: 1.75;
+}
+
+.today-news, .online-poll {
+    border-bottom: 1px solid #ddd;
+}
+
+.today-news ol, .poll, .today-person ul {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.today-news .number {
+    display: block;
+    float: left;
+    max-width:20px ;
+    padding-right:10px;
+    color:#ffaa18;
+    font-weight: bolder;
+}
+
+.poll h6 {
+    margin-bottom:  21px;
+}
+
+.poll ul {margin-bottom: 10px;}
+
+.poll li {
+    width:100%;
+    padding:7px 10px 6px 10px;
+    margin-bottom:10px;
+    background:#5b80c9;
+    border-radius: 2px;
+    font-size:12px;
+    color:#fff;
+    box-sizing: border-box;
+}
+
+.poll li span {
+    display: inline-block;
+}
+
+.poll p {
+    -webkit-line-clamp: 2;
+    margin-bottom: 25px;
+}
+
+
+.today-person li {
+    margin-right:7px;
+    text-align: center;
+}
+.today-person li:last-child {margin-right:0;}
+
+.today-person .thumb {margin-bottom: 6px;}
+
+.ad-banner {margin-top: 21px;}
+
+.top-footer {
+    border-top:2px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+.top-footer ul {margin-bottom: 0;}
+
+
+.top-footer li a {
+    display: block;
+    padding:4px 20px;
+    margin:10px 0;
+    font-size:12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-right:1px solid #ddd;
+    color:#666;
+}
+
+.top-footer li:last-child a {
+    border-right:none;
+}
+
+.bottom-footer {margin-top:21px;}
+
+.bottom-footer li {
+    margin-right: 30px;
+    font-size:12px;
+    line-height: 21px;
+}
+
+.bottom-footer li strong {color:#333;}
+
+.bottom-footer .copyright {
+    font-size:14px;
+    font-weight: bold;
+    color:#333;
+}
