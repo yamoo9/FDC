@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"></meta>
+  <meta charset="UTF-8">
+  <title>RWD - 유연한 아이프레임 처리 방법</title>
+  <style>
+    html { background: #fff; }
+    body {
+      margin: 0;
+      width: 70vw;
+      min-height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+      background: #efefef;
+    }
+    .is-rwd {
+      width: 100%;
+      height: auto;
+    }
+    .iframe {
+      border: 0;
+    }
+
+    .movie, .map { position: relative; }
+    .movie.is-rwd,
+    .map.is-rwd {
+      overflow: hidden;
+      height: 0;
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+    .movie.is-4by3, .map.is-4by3 { padding-top: 75%; }
+    .movie.is-16by9, .map.is-16by9 { padding-top: 56.25%; }
+    .movie.is-21by9, .map.is-21by9 { padding-top: 42.857142857%; }
+    .movie iframe, .map iframe {
+      border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* 페이지 디자인 */
+    .unsplash {
+      max-width: 600px;
+    }
+    .youtube {
+      height: 56.25%;
+    }
+  </style>
+</head>
+<body>
+
+<!--   <img
+    class="unsplash is-rwd"
+    src="https://source.unsplash.com/category/people/600x320"
+    width="600"
+    height="320"
+    alt=""> -->
+
+  <div class="movie is-rwd is-16by9">
+    <iframe
+      src="https://www.youtube.com/embed/y5MAgMVwfFs?rel=0&amp;controls=0&amp;showinfo=0?ecver=2"
+      width="640"
+      height="360"
+      allowfullscreen></iframe>
+  </div>
+
+  <div class="map is-rwd is-4by3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.6709702944527!2d127.01919691578792!3d37.5156777798075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3e8f8dc430b%3A0xe9ac453bde55951d!2z7Yyo7Iqk7Yq47Lqg7Y287Iqk!5e0!3m2!1sko!2skr!4v1491306363069" width="600" height="450" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>
