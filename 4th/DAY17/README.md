@@ -2,9 +2,11 @@
 
 ## 진행 내용
 
-### 반응형 웹 —
+### 반응형 웹 — RWD Util: iframe
 
-## 참고 자료
+---
+
+### 참고 자료
 
 [성공적인 UX디자인을 위한 프로토타입 방법론](http://www.slideshare.net/unbongkang/ux-74229458)<br>
 강운봉 — Interaction Designer at Kakao corp, UX Team
