@@ -1,0 +1,23 @@
+.custom-radio {
+  position: relative;
+}
+
+.custom-radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+/* 라디오 버튼이 체크되지 않은 상태의 아이콘 이미지 */
+.custom-radio input + .icon-radio {
+  margin-left: -1px;
+  vertical-align: -6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/icon-radio-deactive.png") no-repeat;
+}
+/* 라디오 버튼이 체크된 상태의 아이콘 이미지 */
+.custom-radio input:checked + .icon-radio {
+  background-image: url("../images/icon-radio-active.png");
+}
