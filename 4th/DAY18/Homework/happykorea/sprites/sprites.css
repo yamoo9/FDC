@@ -1,0 +1,52 @@
+.ico_search, .ico_sunny, .ico-checkbox-active, .ico-checkbox-deactive, .ico-radio-active, .ico-radio-deactive, .ico-switch-active, .ico-switch-deactive{
+	background: url(sprites.png) no-repeat;
+}
+
+.ico_search{
+	background-position: -100px -29px ;
+	width: 15px;
+	height: 15px;
+}
+
+.ico_sunny{
+	background-position: -98px -2px ;
+	width: 21px;
+	height: 21px;
+}
+
+.ico-checkbox-active{
+	background-position: -72px -31px ;
+	width: 20px;
+	height: 20px;
+}
+
+.ico-checkbox-deactive{
+	background-position: -49px -30px ;
+	width: 20px;
+	height: 20px;
+}
+
+.ico-radio-active{
+	background-position: -26px -28px ;
+	width: 20px;
+	height: 20px;
+}
+
+.ico-radio-deactive{
+	background-position: -4px -28px ;
+	width: 20px;
+	height: 20px;
+}
+
+.ico-switch-active{
+	background-position: -48px -1px ;
+	width: 45px;
+	height: 25px;
+}
+
+.ico-switch-deactive{
+	background-position: 0 0;
+	width: 45px;
+	height: 25px;
+}
+
