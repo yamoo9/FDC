@@ -1,23 +1,46 @@
-.custom-radio {
+.custom-input {
   position: relative;
 }
 
-.custom-radio input {
+.custom-input input {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
 }
-/* 라디오 버튼이 체크되지 않은 상태의 아이콘 이미지 */
-.custom-radio input + .icon-radio {
-  margin-left: -1px;
-  vertical-align: -6px;
+.custom-input input + .custom-input-icon {
   display: inline-block;
+  background: url("../images/icon-sprites.png") no-repeat;
+  margin-left: -2px;
+  margin-right: 3px;
+  vertical-align: -6px;
   width: 20px;
   height: 20px;
-  background: url("../images/icon-radio-deactive.png") no-repeat;
+}
+/* 라디오 버튼이 체크되지 않은 상태의 아이콘 이미지 */
+.custom-input.is-radio input + .custom-input-icon {
+  background-position: -67px -3px;
 }
 /* 라디오 버튼이 체크된 상태의 아이콘 이미지 */
-.custom-radio input:checked + .icon-radio {
-  background-image: url("../images/icon-radio-active.png");
+.custom-input.is-radio input:checked + .custom-input-icon {
+  background-position: -44px -3px;
+}
+/* 체크박스 버튼이 체크되지 않은 상태의 아이콘 이미지 */
+.custom-input.is-checkbox input + .custom-input-icon {
+  background-position: -22px -3px;
+}
+/* 체크박스 버튼이 체크된 상태의 아이콘 이미지 */
+.custom-input.is-checkbox input:checked + .custom-input-icon {
+  background-position: 0 -3px;
+}
+/* 스위치 버튼이 체크되지 않은 상태의 아이콘 이미지 */
+.custom-input.is-switch input + .custom-input-icon {
+  vertical-align: -9px;
+  background-position: -135px 0;
+  width: 45px;
+  height: 25px;
+}
+/* 스위치 버튼이 체크된 상태의 아이콘 이미지 */
+.custom-input.is-switch input:checked + .custom-input-icon {
+  background-position: -89px 0;
 }
