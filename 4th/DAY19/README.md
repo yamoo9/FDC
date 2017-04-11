@@ -11,9 +11,10 @@
 
 ### 수업 진행 예제
 
-<img width="25%" src="../../RESOURCES/UI-Kit/Unveile-Mobile/Screens/03 - Profile/Profile Buyer.jpg" alt="">
+[<img width="25%" src="../../RESOURCES/UI-Kit/Unveile-Mobile/Screens/03 - Profile/Profile Buyer.jpg" alt="">](http://demo.yamoo9.net/m.buyer/)
 
-[Unveile_Profile.psd](../../RESOURCES/UI-Kit/Unveile-Mobile/Resources/Unveile.PSD/Unveile_Profile.psd)
+- [디자인 시안: Unveile_Profile.psd](../../RESOURCES/UI-Kit/Unveile-Mobile/Resources/Unveile.PSD/Unveile_Profile.psd)
+- [완성된 HTML/CSS 보기](http://demo.yamoo9.net/m.buyer/)
 
 ---
 
