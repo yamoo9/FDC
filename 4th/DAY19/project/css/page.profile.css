@@ -4,17 +4,21 @@
 body {
   font-family: "Dosis", "Helvetica Neue", Arial, Sans-Serif;
   line-height: 1.5;
-  background:
-    linear-gradient(0deg, hsla(255, 100%, 66%, 0.6), transparent),
-    url("../images/photo@0.5x.jpg") no-repeat;
-  background-size:
-    100vw 100vh,
-    cover;
 }
 
 /* =util */
 * {
   -webkit-tap-highlight-color:rgba(0,0,0,0.3);
+}
+
+::-moz-selection {
+  background: #7f69bb;
+  color: #fff;
+}
+
+::selection {
+  background: #7f69bb;
+  color: #fff;
 }
 
 .button {
@@ -26,15 +30,36 @@ body {
 .link {
   text-decoration: none;
 }
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* =container */
+.container {
+  background:
+    linear-gradient(0deg, hsla(255, 100%, 66%, 0.6), transparent),
+    url("../images/photo@0.5x.jpg") no-repeat;
+  background-size:
+    cover,
+    cover;
+}
+
 /* =top-bar */
 .top-bar {
-  padding-top: 1rem;
+
 }
 .top-bar .button {
   width: 100%;
   height: 6rem;
-  /*background-color: hsla(0, 0%, 100%, 0.2);*/
   text-align: center;
+  transition: all 1s ease;
+}
+.top-bar .button:hover,
+.top-bar .button:focus {
+  background-color: hsla(0, 0%, 100%, 0.4);
 }
 .top-bar .button img {
   width: 1.8rem;
@@ -46,10 +71,13 @@ body {
   margin-top: 19rem;
 }
 .user-name {
+  position: relative;
   font-size: 5rem;
   font-weight: normal;
   line-height: 1.1;
   color: #fff;
+  left: -3px;
+  top: 1.2rem;
 }
 
 .user-info-link a {
@@ -67,6 +95,55 @@ body {
   font-size: 1.1rem;
 }
 
+/* =user-cardlist */
+.user-cardlist {
+  position: relative;
+  top: 1.5rem;
+}
+.user-card-item {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.user-card-item:nth-child(2) {
+  opacity: 0.5;
+  z-index: 100;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+.user-card-item:nth-child(3) {
+  opacity: 0.3;
+  z-index: 10;
+  top: 3rem;
+  left: 3rem;
+}
+.user-card .is-favorites,
+.user-card .is-product,
+.user-card .is-price {
+  position: absolute;
+}
+.user-card .is-product {
+  font-size: 1.6rem;
+  left: 1.5rem;
+  bottom: 3rem;
+  font-weight: normal;
+  letter-spacing: -0.004em;
+  color: #fff;
+}
+.user-card .is-price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: -0.004em;
+  color: #e8b0e8;
+  left: 1.5rem;
+  bottom: 2.3rem;
+}
+.user-card .is-favorites {
+  top: 1.8rem;
+  right: 2rem;
+  width: 1.6rem;
+}
 
 
 
@@ -83,7 +160,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)   ,
 only screen and (        min-device-pixel-ratio: 2)     ,
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-  body {
+  .container {
     background-image:
       linear-gradient(0deg, hsla(255, 100%, 66%, 0.6), transparent),
       url("../images/photo.jpg");

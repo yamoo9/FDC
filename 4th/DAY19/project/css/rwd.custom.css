@@ -127,7 +127,7 @@ body.show-grid::before {
   padding-right: 0;
 }
 
-@media (max-width: 87.4375em) {
+/*@media (max-width: 87.4375em) {*/
   .m-1 {
     width: 8.33333%;
   }
@@ -200,7 +200,7 @@ body.show-grid::before {
   .m-o-12, .m-offset-12 {
     margin-left: 100%;
   }
-}
+/*}*/
 
 @media (min-width: 0em) and (max-width: 87.4375em) {
   .m-full {

@@ -9,10 +9,28 @@
   <link rel="stylesheet" href="css/rwd.custom.css">
   <link rel="stylesheet" href="css/page.profile.css">
   <script src="js/toggleGrid.js"></script>
+  <style>
+    body.demo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .iphone6 {
+      width: 375px;
+      height: 667px;
+      box-shadow: 0 15px 40px 2px hsla(256, 40%, 59%, 0.8);
+      transition: all 1s ease;
+    }
+    .iphone6:hover {
+      transform: scale(1.03);
+      box-shadow: 0 30px 40px 2px hsla(256, 40%, 59%, 0.4);
+    }
+  </style>
 </head>
-<body>
+<body class="demo">
 
-  <div class="container">
+  <div class="iphone6 container">
     <div class="top-bar row">
       <div class="col m-2">
         <button type="button" class="button is-hamberger">
@@ -36,6 +54,52 @@
       <div class="user-info-link row">
         <a href="#" class="link is-favorite col m-3 m-o-2">favorites</a>
         <a href="#" class="link is-show-more col m-3 m-o-4">show more</a>
+      </div>
+      <div class="row">
+        <ul class="list user-cardlist col m-10 m-o-2">
+          <li class="user-card-item">
+            <div class="user-card">
+              <h3 class="is-product">Headphone</h3>
+              <span class="is-price">$ 126.58</span>
+              <button type="button" class="button is-favorites">
+                <img class="is-rwd" src="images/icon/Icon-Favorites@1x.svg" alt="Add Favorite">
+              </button>
+              <img
+                class="is-rwd"
+                src="images/Image-0@0.5x.png"
+                srcset="images/Image-0.png 2x"
+                alt="">
+            </div>
+          </li>
+          <li class="user-card-item">
+            <div class="user-card">
+              <h3 class="is-product">Headphone</h3>
+              <span class="is-price">$ 126.58</span>
+              <button type="button" class="button is-favorites">
+                <img class="is-rwd" src="images/icon/Icon-Favorites@1x.svg" alt="Add Favorite">
+              </button>
+              <img
+                class="is-rwd"
+                src="images/Image-1@0.5x.png"
+                srcset="images/Image-1.png 2x"
+                alt="">
+            </div>
+          </li>
+          <li class="user-card-item">
+            <div class="user-card">
+              <h3 class="is-product">Headphone</h3>
+              <span class="is-price">$ 126.58</span>
+              <button type="button" class="button is-favorites">
+                <img class="is-rwd" src="images/icon/Icon-Favorites@1x.svg" alt="Add Favorite">
+              </button>
+              <img
+                class="is-rwd"
+                src="images/Image-2@0.5x.png"
+                srcset="images/Image-2.png 2x"
+                alt="">
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
