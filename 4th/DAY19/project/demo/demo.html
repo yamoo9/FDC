@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- meta:vp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RWD Grid System 활용 데모</title>
+  <link rel="stylesheet" href="rwd.custom.css">
+  <script src="toggleGrid.js"></script>
+  <style>
+    .page {
+      margin-top: 30px;
+    }
+    .group {
+      margin-bottom: 10px;
+    }
+    .box {
+      /*display: flex;
+      justify-content: center;
+      align-items: center;*/
+      height: 250px;
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 3rem;
+    }
+    .box:nth-child(1n) { background: #b0a592; }
+    .box:nth-child(2n) { background: #c8c2a5; }
+    .box:nth-child(3n) { background: #dac494; }
+    .box:nth-child(4n) { background: #6e6758; }
+    .box:nth-child(5n) { background: #5e5d55; }
+    .box:nth-child(6n) { background: #4e4e4d; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="box col m-6">M1</div>
+      <div class="box col m-6">M2</div>
+      <div class="box col m-hidden">M3</div>
+      <div class="box col m-full">M4</div>
+    </div>
+  </div>
+
+</body>
+</html>

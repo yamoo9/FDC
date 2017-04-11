@@ -36,11 +36,11 @@ $breakpoints: (
 //   거터를 설정하지 않을 경우, null 값을 대입합니다.
 $grid-setting: (
   'm': (
-    'columns': 4,
+    'columns': 12,
     'gutters': null
   ),
   't': (
-    'columns': 8,
+    'columns': 12,
     'gutters': null
   ),
   'd': (
@@ -252,6 +252,9 @@ body.show-grid {
   @if $bp == 'm' {
     @include breakpoint-lt('t') {
       @include grid-width($bp, $columns, $gutters);
+    }
+    @include breakpoint($bp, 't') {
+      @include rwd-util($bp);
     }
   }
   @if $bp == 't' {

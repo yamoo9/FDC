@@ -298,72 +298,96 @@ body.show-grid::before {
 @media (min-width: 76.25em) {
   .d-1 {
     width: 8.33333%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-1, .d-offset-1 {
     margin-left: 8.33333%;
   }
   .d-2 {
     width: 16.66667%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-2, .d-offset-2 {
     margin-left: 16.66667%;
   }
   .d-3 {
     width: 25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-3, .d-offset-3 {
     margin-left: 25%;
   }
   .d-4 {
     width: 33.33333%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-4, .d-offset-4 {
     margin-left: 33.33333%;
   }
   .d-5 {
     width: 41.66667%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-5, .d-offset-5 {
     margin-left: 41.66667%;
   }
   .d-6 {
     width: 50%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-6, .d-offset-6 {
     margin-left: 50%;
   }
   .d-7 {
     width: 58.33333%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-7, .d-offset-7 {
     margin-left: 58.33333%;
   }
   .d-8 {
     width: 66.66667%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-8, .d-offset-8 {
     margin-left: 66.66667%;
   }
   .d-9 {
     width: 75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-9, .d-offset-9 {
     margin-left: 75%;
   }
   .d-10 {
     width: 83.33333%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-10, .d-offset-10 {
     margin-left: 83.33333%;
   }
   .d-11 {
     width: 91.66667%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-11, .d-offset-11 {
     margin-left: 91.66667%;
   }
   .d-12 {
     width: 100%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .d-o-12, .d-offset-12 {
     margin-left: 100%;
@@ -382,96 +406,128 @@ body.show-grid::before {
 @media (min-width: 100em) {
   .w-1 {
     width: 6.25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-1, .w-offset-1 {
     margin-left: 6.25%;
   }
   .w-2 {
     width: 12.5%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-2, .w-offset-2 {
     margin-left: 12.5%;
   }
   .w-3 {
     width: 18.75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-3, .w-offset-3 {
     margin-left: 18.75%;
   }
   .w-4 {
     width: 25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-4, .w-offset-4 {
     margin-left: 25%;
   }
   .w-5 {
     width: 31.25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-5, .w-offset-5 {
     margin-left: 31.25%;
   }
   .w-6 {
     width: 37.5%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-6, .w-offset-6 {
     margin-left: 37.5%;
   }
   .w-7 {
     width: 43.75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-7, .w-offset-7 {
     margin-left: 43.75%;
   }
   .w-8 {
     width: 50%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-8, .w-offset-8 {
     margin-left: 50%;
   }
   .w-9 {
     width: 56.25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-9, .w-offset-9 {
     margin-left: 56.25%;
   }
   .w-10 {
     width: 62.5%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-10, .w-offset-10 {
     margin-left: 62.5%;
   }
   .w-11 {
     width: 68.75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-11, .w-offset-11 {
     margin-left: 68.75%;
   }
   .w-12 {
     width: 75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-12, .w-offset-12 {
     margin-left: 75%;
   }
   .w-13 {
     width: 81.25%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-13, .w-offset-13 {
     margin-left: 81.25%;
   }
   .w-14 {
     width: 87.5%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-14, .w-offset-14 {
     margin-left: 87.5%;
   }
   .w-15 {
     width: 93.75%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-15, .w-offset-15 {
     margin-left: 93.75%;
   }
   .w-16 {
     width: 100%;
+    padding-left: rem(30px);
+    padding-right: rem(30px);
   }
   .w-o-16, .w-offset-16 {
     margin-left: 100%;
