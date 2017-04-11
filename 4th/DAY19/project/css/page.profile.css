@@ -4,4 +4,23 @@
 body {
   font-family: "Dosis", "Helvetica Neue", Arial, Sans-Serif;
   line-height: 1.5;
+  background: url("../images/photo@0.5x.jpg");
 }
+
+/* HiDPI Design */
+/* CSS3 미디워쿼리 활용 - 레티나 디스플레이 대응 */
+/*
+ * 고해상도 디스플레이(@2x)
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)     ,
+only screen and (   min--moz-device-pixel-ratio: 2)     ,
+only screen and (     -o-min-device-pixel-ratio: 2/1)   ,
+only screen and (        min-device-pixel-ratio: 2)     ,
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  body {
+    background-image: url("../images/photo.jpg");
+  }
+}
+
