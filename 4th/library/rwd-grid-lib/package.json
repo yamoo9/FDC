@@ -1,0 +1,13 @@
+{
+  "name": "rwd-grid-lib",
+  "version": "1.0.0",
+  "description": "RWD Grid Library",
+  "private": true,
+  "main": "index.js",
+  "author": "yamoo9",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "sass-breakpoints": "^2.1.0"
+  }
+}

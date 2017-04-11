@@ -1,0 +1,312 @@
+/*! RWD.Grid.css © yamoo9.net, 2017 */
+
+// * ----------------------------------------------------------------
+// * 환경 설정 변수
+// * ----------------------------------------------------------------
+
+// 기본이 되는 글자 크기 설정
+// ※ <html> 요소의 기본 글꼴 크기로 설정 됩니다. (rem 단위의 기준)
+$root-font-size: 10px;
+
+// 컨테이너 마진 설정 (only mobile)
+// ※ 모바일 화면에서 양쪽에 간격을 설정하고자 할 때 사용합니다.
+$container-margin: null;
+
+// 컨테이너 가로 폭 유형 [ width | max-width ]
+// ※
+// $breakpoint-width: 'width';
+$rwd-width-type: 'width';
+
+// 중단점 설계
+// https://goo.gl/ZN0esD
+// ※ 화면 설계 과정에서 설정된 값을 입력합니다.
+// Mobile        <  768px
+// Tablet        >= 768px,  < 1220px
+// Desktop       >= 1220px, < 1600px
+// Wide Screen   >= 1660px
+$breakpoints: (
+  'm': 0px,
+  't': 768px,
+  'd': 1220px,
+  'w': 1600px
+);
+
+// 그리드 시스템 설계
+// ※ 컬럼 개수 및 거터 간격(옵션)을 설정할 수 있습니다.
+//   거터를 설정하지 않을 경우, null 값을 대입합니다.
+$grid-setting: (
+  'm': (
+    'columns': 4,
+    'gutters': null
+  ),
+  't': (
+    'columns': 8,
+    'gutters': null
+  ),
+  'd': (
+    'columns': 12,
+    'gutters': null
+  ),
+  'w': (
+    'columns': 16,
+    'gutters': null
+  )
+);
+
+// Flexbox 사용 유무 설정 (IE 10+)
+// ※ 값을 false 로 사용할 경우, float을 사용하게 됩니다.
+$using-flexbox: false;
+
+// 가이드 색상
+// ※ 화면에 그려지는 가이드 색상의 기본이 되는 색상입니다.
+//   설정을 변경하면 가이드라인, 컬럼 컬러에 영향을 줍니다.
+$guide-color: #fc414b;
+
+// 가이드라인 컬러
+// ※ rgba() 함수 2번째 인자인 알파 값은 0~1 사이 값을 입력해야 합니다.
+$guideline-color: rgba($guide-color, 0.7);
+
+// 가이드라인 높이
+// ※ 행간 설정입니다.
+$guidline-height: 10px;
+
+// 컬럼 시작 컬러
+// ※ rgba() 함수 2번째 인자인 알파 값은 0~1 사이 값을 입력해야 합니다.
+$column-start-color: rgba($guide-color, 0.25);
+
+// 컬럼 끝 컬러
+// ※ adjust-hue() 함수 2번째 인자인 각도 값은 0~360deg 사이 값을 입력합니다.
+$column-end-color: adjust-hue($column-start-color, 45deg);
+
+
+// * ----------------------------------------------------------------
+// * 믹스인/함수
+// * ----------------------------------------------------------------
+@import "util";
+
+
+// * ----------------------------------------------------------------
+// * RWD 유틸리티
+// * ----------------------------------------------------------------
+.is-rwd {
+  width: 100%;
+  height: auto;
+}
+.movie, .map {
+  position: relative;
+}
+.movie.is-rwd, .map.is-rwd {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.movie.is-4by3, .map.is-4by3 {
+  padding-top: 75%;
+}
+.movie.is-16by9, .map.is-16by9 {
+  padding-top: 56.25%;
+}
+.movie.is-21by9, .map.is-21by9 {
+  padding-top: 42.857142857%;
+}
+.movie iframe, .map iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+// * ----------------------------------------------------------------
+// * 기본 설정
+// * ----------------------------------------------------------------
+html {
+  font-size: $root-font-size;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  font-size: $root-font-size * 1.6;
+  &,
+  & *,
+  & *:before,
+  & *:after {
+    box-sizing: inherit;
+  }
+}
+
+
+// * ----------------------------------------------------------------
+// * 그리드 시스템
+// * ----------------------------------------------------------------
+body.show-grid {
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 10000;
+    height: 300vh;
+    width: 100%;
+  }
+  &::after {
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent ($guidline-height - 1), $guideline-color);
+    background-size: 1px $guidline-height;
+  }
+  &::before {
+    left: 50%;
+    transform: translateX(-50%);
+
+    @each $bp, $set in $grid-setting {
+      $columns: map-get($set, 'columns');
+      $gutters: map-get($set, 'gutters');
+      @if $bp == 'm' {
+        @include breakpoint-lt('t') {
+          @include grid-column($columns, $gutters);
+        }
+      }
+      @if $bp == 't' {
+        @include breakpoint($bp) {
+          #{$rwd-width-type}: map-get($breakpoints, $bp);
+          @include grid-column($columns, $gutters);
+        }
+      }
+      @if $bp == 'd' {
+        @include breakpoint($bp) {
+          #{$rwd-width-type}: map-get($breakpoints, $bp);
+          @include grid-column($columns, $gutters);
+        }
+      }
+      @if $bp == 'w' {
+        @include breakpoint($bp) {
+          #{$rwd-width-type}: map-get($breakpoints, $bp);
+          @include grid-column($columns, $gutters);
+        }
+      }
+    }
+
+  }
+}
+
+// * 컨테이너 모듈
+// * ----------------------------------------------------------------
+.container {
+  padding: {
+    left: $container-margin;
+    right: $container-margin;
+  }
+  &.fluid,
+  &.liquid {
+    width: 100%;
+  }
+}
+
+// * 로우 모듈
+// * ----------------------------------------------------------------
+.clearfix {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.row, .columns {
+  @if $using-flexbox {
+    display: flex;
+  }
+  @else {
+    @extend .clearfix;
+  }
+}
+
+// * 컬럼 모듈
+// * ----------------------------------------------------------------
+.col, .column {
+  @if $using-flexbox {
+    flex: 1 1 100%;
+  }
+  @else {
+    float: left;
+    width: 100%;
+  }
+  .no-gutters &,
+  &.no-gutters {
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+@each $bp, $set in $grid-setting {
+  $columns: map-get($set, 'columns');
+  $gutters: map-get($set, 'gutters');
+  @if $bp == 'm' {
+    @include breakpoint-lt('t') {
+      @include grid-width($bp, $columns, $gutters);
+    }
+  }
+  @if $bp == 't' {
+    @include breakpoint($bp) {
+      @include grid-width($bp, $columns, $gutters);
+    }
+    @include breakpoint($bp, 'd') {
+      @include rwd-util($bp);
+    }
+  }
+  @if $bp == 'd' {
+    @include breakpoint($bp) {
+      @include grid-width($bp, $columns, $gutters);
+    }
+    @include breakpoint($bp, 'w') {
+      @include rwd-util($bp);
+    }
+  }
+  @if $bp == 'w' {
+    @include breakpoint($bp) {
+      @include grid-width($bp, $columns, $gutters);
+      @include rwd-util($bp);
+    }
+  }
+}
+
+// * ----------------------------------------------------------------
+// * Tablet 영역
+// * ----------------------------------------------------------------
+@include breakpoint('t') {
+  .container {
+    #{$rwd-width-type}: map-get($breakpoints, 't');
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+}
+
+
+// * ----------------------------------------------------------------
+// * Desktop 영역
+// * ----------------------------------------------------------------
+@include breakpoint('d') {
+  .container {
+    #{$rwd-width-type}: map-get($breakpoints, 'd');
+  }
+}
+
+
+// * ----------------------------------------------------------------
+// * Wide Screen 영역
+// * ----------------------------------------------------------------
+@include breakpoint('w') {
+  .container {
+    #{$rwd-width-type}: map-get($breakpoints, 'w');
+  }
+}

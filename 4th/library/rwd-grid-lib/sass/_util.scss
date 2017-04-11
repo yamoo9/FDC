@@ -1,0 +1,155 @@
+// * --------------------------------
+// * util.scss  © yamoo9.net, 2017
+// * --------------------------------
+
+// 단위 제거 함수
+@function strip-units($unit) {
+  @return $unit / ($unit * 0 + 1);
+}
+
+// px → em 변경 함수
+@function em($px, $base: 16px) {
+  @if $px==null {
+    @return null;
+  }
+  @if not unitless($px) {
+    $px: strip-units($px);
+  }
+  @if not unitless($base) {
+    $base: strip-units($base);
+  }
+  @return $px / $base * 1em;
+}
+
+// px → rem 변경 함수
+$root-font-size: 16px !default;
+@function rem($px, $base: $root-font-size) {
+  @if not unitless($px) {
+    $px: strip-units($px);
+  }
+  @if not unitless($base) {
+    $base: strip-units($base);
+  }
+  @return $px / $base * 1rem;
+}
+
+// 소수점 반올림 함수
+@function decimal-round ($number, $digits: 0, $mode: round) {
+  $n: 1;
+  @if type-of($number) !=number {
+    @warn '#{ $number } is not a number.';
+    @return $number;
+  }
+  @if type-of($digits) !=number {
+    @warn '#{ $digits } is not a number.';
+    @return $number;
+  }
+  @else if not unitless($digits) {
+    @warn '#{ $digits } has a unit.';
+    @return $number;
+  }
+  @if $digits > 0 {
+    @for $i from 1 through $digits {
+      $n: $n * 10;
+    }
+  }
+  @if $mode==round {
+    @return round($number * $n) / $n;
+  }
+  @else if $mode==ceil {
+    @return ceil($number * $n) / $n;
+  }
+  @else if $mode==floor {
+    @return floor($number * $n) / $n;
+  }
+  @else {
+    @warn '#{ $mode } is undefined keyword.';
+    @return $number;
+  }
+}
+
+// 중단점 믹스인
+$breakpoints: (
+  'm': 0px,
+  't': 768px,
+  'd': 1220px,
+  'w': 1600px
+) !default;
+
+@mixin breakpoint-lt($to) {
+  @media (max-width: em(map-get($breakpoints, $to) - 1)) {
+    @content;
+  }
+}
+@mixin breakpoint-lte($to) {
+  @media (max-width: em(map-get($breakpoints, $to))) {
+    @content;
+  }
+}
+@mixin breakpoint-gt($from) {
+  @media (min-width: em(map-get($breakpoints, $from) + 1)) {
+    @content;
+  }
+}
+@mixin breakpoint-gte($from) {
+  @media (min-width: em(map-get($breakpoints, $from))) {
+    @content;
+  }
+}
+@mixin breakpoint-between($from, $to) {
+  @media (min-width: em(map-get($breakpoints, $from) + 1)) and (max-width: em(map-get($breakpoints, $to) - 1)) {
+    @content;
+  }
+}
+@mixin breakpoint($from, $to: null) {
+  @if ($from and $to) {
+    @media (min-width: em(map-get($breakpoints, $from))) and (max-width: em(map-get($breakpoints, $to) - 1)) {
+      @content;
+    }
+  }
+  @else if ($from) {
+    @include breakpoint-gte($from) {
+      @content;
+    }
+  }
+  @else {
+    @content;
+  }
+}
+
+// 그리드 믹스인
+@mixin grid-width($bp, $columns, $gutters) {
+  @for $i from 1 through $columns {
+    .#{$bp}-#{$i} {
+      @if $using-flexbox {
+        flex: 0 0 percentage( $i / $columns);
+      }
+      @else {
+        width: percentage( $i / $columns);
+      }
+      padding: {
+        left: $gutters;
+        right: $gutters;
+      }
+    }
+    .#{$bp}-o-#{$i}, .#{$bp}-offset-#{$i} {
+      margin-left: percentage( $i / $columns);
+    }
+  }
+}
+
+// 그리드 컬럼 믹스인
+@mixin grid-column($columns, $gutters) {
+  background: linear-gradient(90deg, $column-start-color, $column-end-color);
+  background-size: decimal-round(100%/$columns, 1, 'ceil') 1px;
+}
+
+// 반응형 그리드 유틸리티
+@mixin rwd-util($bp) {
+  .#{$bp}-full {
+    @if not $using-flexbox {
+      width: 100%;
+    }
+  }
+  .#{$bp}-hidden { display: none !important; }
+}

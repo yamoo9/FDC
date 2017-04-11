@@ -1,0 +1,127 @@
+/* Browser Reset */
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Default Settings */
+html {
+	font-family: 'Futura', sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	height: 100vh;
+
+	/* background-image: url("../images/guides/leading-24px.gif"); */
+}
+
+#main, #side-bar-left, #side-bar-right {
+	float: left;
+	margin-top: 3rem;
+}
+
+#main {
+	width: 80%;
+}
+
+.main-header h1 {
+	font-size: 3.81rem;
+	line-height: 4.5rem;
+	letter-spacing: 0.12em;
+
+	text-align: center;
+}
+
+.main-header h1::before {
+	content: 'SF 2016\A';
+	white-space: pre-wrap;
+	width: 80%;
+	margin: 0 auto 4.5rem;
+
+	text-align: center;
+	font-size: 1.56rem;
+	line-height: 3;
+	letter-spacing: 0.05em;
+}
+
+.main-header h1::after {
+	content: '#431\A art&technology';
+	display: block;
+	white-space: pre-wrap;
+	width: 80%;
+	margin: 3rem auto 0;
+
+	text-align: center;
+	font-size: 1rem;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+}
+
+
+#side-bar-left, #side-bar-right {
+	width: 10%;
+	font-weight: 500;
+}
+
+span {
+	font-size: 1rem;
+	letter-spacing: 0.05rem;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 4.5rem;
+}
+
+ul:first-child {
+	margin-top: 0;
+}
+
+li {
+	text-align: center;
+}
+
+li.line-break {
+	margin-top: 1.5rem;
+}
+
+#side-bar-left li.line-break {
+	margin-top: 4.5rem;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+.sbl-nav {
+	display: inline-block;
+	text-align: center;
+}
+
+#side-bar-left>a:last-child {
+	margin-top: 3rem;
+}
+
+#side-bar-left::after {
+	content: "12/26/2015 - \A 01/19/2016";
+	white-space: pre-wrap;
+
+	display: inline-block;
+	transform: rotate(270deg);
+
+	position: absolute;
+	top: 19rem;
+	left: 2.3rem;
+}

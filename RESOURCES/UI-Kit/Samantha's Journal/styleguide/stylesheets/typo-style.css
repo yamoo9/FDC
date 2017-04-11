@@ -1,0 +1,65 @@
+/*
+	*** Web Typography Design ***
+
+	font-family : Noto Sans KR;
+	font-size : 16px;
+
+	Modular Scale : Major Third (x1.250);
+
+*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+div.futura {
+	font-family: 'Futura', sans-serif;
+}
+
+div.noto {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+p {
+	font-weight: 400;
+}
+
+p.hd-1 {
+	font-weight: 700;
+	font-size: 3.0625rem;
+	line-height: 1.5;
+}
+
+p.hd-2 {
+	font-weight: 700;
+	font-size: 2.4375rem;
+	line-height: 1.2307;
+}
+
+
+p.hd-3 {
+	font-weight: 700;
+	font-size: 1.9375rem;
+	line-height: 1.6;
+}
+
+p.hd-4 {
+	font-weight: 500;
+	font-size: 1.5625rem;
+	line-height: 1.92;
+}
+
+p.hd-5 {
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.2;
+}
+
+p.hd-6 {
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.noto>p {
+	font-weight: 300;
+}
+
