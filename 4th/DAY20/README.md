@@ -16,5 +16,6 @@
 
 ## 참고 링크
 
+- [모바일에 최적화된 이벤트 디자인 방법](http://www.ridicorp.com/blog/2017/01/15/mobile-event/)
 - [kr.pinterest.com/explore/web-design](https://kr.pinterest.com/explore/web-design/)
 - [medium.com/@ux_in_motion](https://medium.com/@ux_in_motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
