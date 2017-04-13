@@ -19,3 +19,8 @@
 - [모바일에 최적화된 이벤트 디자인 방법](http://www.ridicorp.com/blog/2017/01/15/mobile-event/)
 - [kr.pinterest.com/explore/web-design](https://kr.pinterest.com/explore/web-design/)
 - [medium.com/@ux_in_motion](https://medium.com/@ux_in_motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
+
+### 온라인 코드 타이핑 연습 사이트
+
+- [typing.lk](http://typing.lk/)
+- [speedcoder.net/lessons](http://www.speedcoder.net/lessons/)
