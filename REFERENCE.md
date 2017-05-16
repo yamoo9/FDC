@@ -6,7 +6,7 @@
 
 ![레퍼런스](Assets/dsgn_web_reference.png)
 
--
+---
 
 ##### Design Theory
 - [디자인 프로세스](https://github.com/yamoo9/PSD2HTML-CSS/wiki/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
@@ -20,7 +20,7 @@
 - [디스플레이상에서 폰트의 크기,굵기,명도](http://yeun.github.io/2016/03/09/font-weight-and-color.html)
 - [UX 디자이너는 코딩을 배워야 할까](http://story.pxd.co.kr/1142)
 
--
+---
 
 ##### Front-End Techniques
 
@@ -44,7 +44,7 @@
     - [생활코딩 CSS](https://opentutorials.org/course/45/2)
     - [생활코딩 Javascript](https://opentutorials.org/course/1375)
 
--
+---
 
 ##### Online Tools
 
@@ -54,7 +54,7 @@
 - [Modulifier](http://modulifier.web-dev.tools)
 - [Gridifier](http://gridifier.web-dev.tools)
 
--
+---
 
 ##### Photoshop Plugins
 
@@ -92,7 +92,7 @@
 - [RotateMe 3.0](http://blog.kam88.com/en/rotateme-30.html)
 - [Isometrify](http://blog.kam88.com/en/isometrify.html)
 
--
+---
 
 ##### Etc.
 
@@ -104,14 +104,12 @@
 - [18 Detailed Photoshop UI Design Tutorials](http://bashooka.com/photoshop/18-detailed-photoshop-ui-design-tutorials/)
 - [Free PSD Perspective App Mockups](http://designmodo.com/perspective-app-mockups/)
 
--
+---
 
 ##### Mobile
 
 - [Viewport & Media Queries, The Complete Idiot's Guide](https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present?slide=id.i0)
 - [a pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
-
-
 
 <!-- ### 컴포넌트 디자인
 
