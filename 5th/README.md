@@ -38,9 +38,9 @@
 정하윤 | hahayuni89@gmail.com      | 디자이너 | https://github.com/hahayuni   |
 이현경 | llhyunkyung@naver.com     | 디자이너 | https://github.com/amal022    |
 황유정 | h1255pm@gmail.com         | 디자이너 | https://github.com/h1255pm    |
-최의정 | spearmintchoi@gmail.com   | ·      | https://github.com/sp2armint | 워드프레스/Wix 구축 경험
+최의정 | spearmintchoi@gmail.com   | ·      | https://github.com/sp2armint | 
 김미성 | altjddl02@naver.com       | 퍼블리셔 | https://github.com/ms733      |
-배진호 | znfamily7@gmail.com       | 디자이너 | https://github.com/baezino    | Flash 캐릭터 디자인 경험
+배진호 | znfamily7@gmail.com       | 디자이너 | https://github.com/baezino    | 
 한지영 | ptjy88@naver.com          | 마케터  | https://github.com/physiohan  |
 문화영 | hwahahaha@gmail.com       | 디자이너 | https://github.com/haha7      |
 이진선 | jin-lab@naver.com         | 디자이너 | https://github.com/jin-lab    |
