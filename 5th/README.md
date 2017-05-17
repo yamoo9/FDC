@@ -28,9 +28,9 @@
 
 # FDC 5기 수강생 리스트
 
-이름 | 이메일 | 직군 | GitHub | 비고
+이름 | 이메일 | 직군 | GitHub 저장소 주소 | 비고
 --- | --- | --- | --- | ---
-한진아 | jina.han@fashiongo.com    | 디자이너 | https://github.com/trocadero88 |
+한진아 | jina.han@fashiongo.com    | 디자이너 | https://github.com/trocadero88 | 
 김지혜 | jjae276@gmail.com         | 디자이너 | https://github.com/jjaejjae   |
 이은솔 | cabbit@daum.net           | 디자이너 | https://github.com/eunsollee  |
 이가영 | 2gaa0@naver.com           | 디자이너 | https://github.com/gaayounglee |
@@ -38,7 +38,7 @@
 정하윤 | hahayuni89@gmail.com      | 디자이너 | https://github.com/hahayuni   |
 이현경 | llhyunkyung@naver.com     | 디자이너 | https://github.com/amal022    |
 황유정 | h1255pm@gmail.com         | 디자이너 | https://github.com/h1255pm    |
-최의정 | spearmintchoi@gmail.com   | ·      | https://github.com/sp2armint | 
+최의정 | spearmintchoi@gmail.com   |        | https://github.com/sp2armint | 
 김미성 | altjddl02@naver.com       | 퍼블리셔 | https://github.com/ms733      |
 배진호 | znfamily7@gmail.com       | 디자이너 | https://github.com/baezino    | 
 한지영 | ptjy88@naver.com          | 마케터  | https://github.com/physiohan  |
@@ -48,7 +48,7 @@
 황승희 | sxxnghxx@naver.com        | 디자이너 | https://github.com/sxxnghxx   |
 박민혜 | cepien@gmail.com          | 디자이너 | https://github.com/cepien     |
 김나연 | nayeon.kim@athenaslab.com | 디자이너 | https://github.com/sensemint89 |
-신지나 | gnaworld@gmail.com        | ·      | https://github.com/makershin  |
+신지나 | gnaworld@gmail.com        |        | https://github.com/makershin  |
 김태우 | taewoo.kim@athenaslab.com | 개발자  | https://github.com/lioliolio  |
 곽현지 | hicpfl@naver.com          | 디자이너 | https://github.com/kkwakja    |
 이혜민 | hyeminlee0225@gmail.com   | 디자이너 | https://github.com/hyemin-lee |
