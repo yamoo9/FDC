@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*
+  Style Module 분리
+  스타일 파일을 조립할 수 있도록 작은 단위의 조립 가능한 부품(Module)으로 분리한다.
+*/
+
+@import "./typography.css";
+
+a {
+    text-decoration: none;
+}
+
+
+/* 목차 디자인 */
+
+.index {
+    margin-top: 1.5rem;
+}
+
+
+/*.index a::before {
+  display: inline-block;
+  content: '♥ ';
+  font-size: 0.75rem;
+  vertical-align: 0.2em;
+  line-height: 0;
+  color: #B7D052;
+  transform: rotate(-45deg);
+}*/
+
+
+/*
+축약어(줄임말) 스타일
+커서 디자인
+*/
+
+abbr {
+    cursor: help;
+}
+
+
+/*abbr::after {
+  font-size: 0.69rem;
+  content: ' ' attr(title);
+  vertical-align: 1rem;
+  line-height: 0;
+}*/
+
+
+/**
+ * --------------------------------
+ * 목록 디자인
+ * ul, ol, li
+ */
+
+body {
+    min-height: 100vh;
+    padding: 3rem;
+}
+
+.news {
+    list-style: none;
+    padding-left: 0;
+}
+
+.news li {
+    overflow: hidden;
+    border-bottom: 1px dashed #a8cae0;
+    padding-top: calc(1.5rem - 1px);
+}
+
+.news li:hover {
+    background-color: hsla(206, 24%, 94%, 0.4);
+}
+
+.news div {
+    margin-left: 7.25rem;
+}
+
+.news h3 {
+    margin-top: 0;
+}
+
+.news h4 {
+    margin-top: 0;
+}
+
+.news img {
+    float: left;
+    /*padding-top: 1.5rem;*/
+    margin-right: 1rem;
+}
+
+.news .fr {
+    float: right;
+    margin-left: 1rem;
+}
+
+
+/*
+프린트 사용자를 위한 디자인
+유니버셜 디자인을 위한 우리의 자세
+*/
+
+@media print {
+    /*@media screen and (min-width: 800px) {*/
+    abbr::after {
+        font-size: 0.69rem;
+        content: ' ' attr(title);
+        vertical-align: 1rem;
+    }
+}
+
+
+/**
+ * --------------------------------
+ * by yamoo9
+ * ----------------------------- */
+
+.thum {
+    height: 3rem;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.news h4 {
+  margin-bottom: 1.5rem;
+}
+
+.news li:last-child {
+  padding-bottom: 1.5rem;
+}
+
+.section h4 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
