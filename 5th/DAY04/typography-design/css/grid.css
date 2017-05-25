@@ -1,0 +1,38 @@
+/*! grid.css @ 2017, yamoo9.net */
+html {
+  background: #fff;
+}
+
+body {
+  margin: 0;
+  padding-top: 42px;
+  height: 100vh;
+  /* 가이드라인 설계 */
+  background: url("../assets/leading-pattern-21.png");
+ /* 글꼴, 글자 크기, 글자색상, 자간, 어간, 행간 */
+ font-family: "NanumSquare", "Dotum", sans-serif;
+ font-size: 14px;
+ color: #262626;
+ letter-spacing: -0.02em; /* 포토샵 설정 값 기준: -20  ⬅  1000으로 나눈 후, em 단위를 붙인다. */
+ line-height: 1.5;
+ /* 속기형 속성: 글꼴, 글자 크기, 글자 두께, 글자 기울기, 글자 변형, 행간 */
+ /*font: 글자크기 글꼴; (필수!!!)*/
+ /*font: 14px "NanumSquare", Dotum, sans-serif;*/
+ /*font: 글자크기/행간 글꼴; (옵션)*/
+ font: 14px/1.5 "NanumSquare", Dotum, sans-serif;
+ /*font: 두께 기울기 변형 글자크기/행간 글꼴; (옵션)*/
+ /*font: bold italic small-caps 14px/1.5 "NanumSquare", Dotum, sans-serif;*/
+}
+
+/* 본문 디자인 */
+p {
+  margin-top: 0;
+  margin-bottom: 21px; /* 1.5em */
+}
+
+/* 컨테이너 디자인 */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
