@@ -36,7 +36,7 @@
 이가영 | 2gaa0@naver.com           | 디자이너 | [gaayounglee.github.io](https://github.com/gaayounglee/gaayounglee.github.io)   |
 천송희 | superluckhee@naver.com    | 디자이너 | [superluckhee.github.io](https://github.com/superluckhee/superluckhee.github.io) |
 정하윤 | hahayuni89@gmail.com      | 디자이너 | [hahayuni.github.io](https://github.com/hahayuni/hahayuni.github.io)         |
-이현경 | llhyunkyung@naver.com     | 디자이너 | ~[amal022.github.io](https://github.com/amal022/amal022.github.io)~         |
+이현경 | llhyunkyung@naver.com     | 디자이너 | [github.com/amal022](https://github.com/amal022/)         |
 황유정 | h1255pm@gmail.com         | 디자이너 | [h1255pm/h1255pm.github.io](https://github.com/h1255pm/h1255pm.github.io)           |
 최의정 | spearmintchoi@gmail.com   |        | [sp2armint.github.io](https://github.com/sp2armint/sp2armint.github.io)       |
 김미성 | altjddl02@naver.com       | 퍼블리셔 | [ms733.github.io](https://github.com/ms733/ms733.github.io)                |
