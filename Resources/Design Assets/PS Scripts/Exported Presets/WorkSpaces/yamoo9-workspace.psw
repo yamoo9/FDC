@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<photoshop-workspace version="1.0">
+	<photoshop-panel-configuration>
+<workspace version="1">
+	<dock anchor="top" content="control-bar" is-closed="false">
+		<control-bar id="1" origin="-15 -2" size="1423 31" is-closed="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAXAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAG8AcAB0AGkAbwBuAHMAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAAA"/>
+	</dock>
+	<dock anchor="bottom" content="palette" is-closed="false">
+		<tab-pane mode="expanded" preferred-iconic-length="0" layout-mode="auto-flow">
+			<tab-group active-palette="2" is-closed="true">
+				<palette id="2" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAZAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGEAbgBpAG0AYQB0AGkAbwBuAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAJPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAAAAAAABMZWZ0bG9uZwAAAcwAAAAAQnRvbWxvbmcAAAAAAAAAAFJnaHRsb25nAAABzE9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAB5AAAAAExlZnRsb25nAAABzAAAAABCdG9tbG9uZwAAAHkAAAAAUmdodGxvbmcAAAHM" host-cached-sizes="true"/>
+				<palette id="3" is-closed="true" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAbAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAG0AZQBhAHMAdQByAGUAbQBlAG4AdAAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAAAAAAAABSZ2h0bG9uZwAAAAA=" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="left" content="palette toolbar" is-closed="false"/>
+	<dock anchor="right" content="palette toolbar" is-closed="false">
+		<tab-pane mode="icon" preferred-iconic-length="39" layout-mode="auto-flow">
+			<tab-group active-palette="5" is-closed="false">
+				<palette id="4" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAVAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGMAbwBtAHAAcwAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAGYAAAAATGVmdGxvbmcAAAEJAAAAAEJ0b21sb25nAAABdAAAAABSZ2h0bG9uZwAAAQk=" host-cached-sizes="true"/>
+				<palette id="5" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAaAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGEAbgBuAG8AdABhAHQAaQBvAG4AAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABkAAAAAExlZnRsb25nAAABCQAAAABCdG9tbG9uZwAAAXQAAAAAUmdodGxvbmcAAAEJ" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="6" is-closed="false">
+				<palette id="6" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAWAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHAAaQBjAGsAZQByAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAZwAAAABMZWZ0bG9uZwAAAO8AAAAAQnRvbWxvbmcAAACmAAAAAFJnaHRsb25nAAAA7w==" host-cached-sizes="true"/>
+				<palette id="7" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAABEAHAAYQBuAGUAbABpAGQALgBkAHkAbgBhAG0AaQBjAC4AcwB3AGYALgBjAHMAeABzAC4AYwBvAG0ALgBnAHIAZQBnAGYAaQBzAGsAZQAuAGMAaABlAGMAawBjAG8AbgB0AHIAYQBzAHQAcgBhAHQAaQBvAC4AZQB4AHQAZQBuAHMAaQBvAG4AAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAACAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAACmAAAAAExlZnRsb25nAAAA7wAAAABCdG9tbG9uZwAAAKYAAAAAUmdodGxvbmcAAADvAAAAEWZsYXNoUGFuZWxBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAABAAAAABUdGwgVEVYVAAAABUAQwBoAGUAYwBrACAAQwBvAG4AdAByAGEAcwB0ACAAUgBhAHQAaQBvAAAAAAAaaG9ub3JJbml0aWFsQVBFU2l6ZVJlcXVlc3Rib29sAAAAABNmbGFzaFBhbmVsUGFuZWxEYXRhVEVYVAAAAAEAAAAAACJkZWZhdWx0Q29uZmlnRm9yV29ya3NwYWNlSXNQZW5kaW5nYm9vbAE=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="8" is-closed="false">
+				<palette id="8" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="true" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAdAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAZQB4AHQAYwBoAGEAcgBhAGMAdABlAHIAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAADeAAAAAExlZnRsb25nAAAA4QAAAABCdG9tbG9uZwAAAN4AAAAAUmdodGxvbmcAAADh" host-cached-sizes="true"/>
+				<palette id="9" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAdAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAZQB4AHQAcABhAHIAYQBnAHIAYQBwAGgAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAACUAAAAAExlZnRsb25nAAAA0AAAAABCdG9tbG9uZwAAAJQAAAAAUmdodGxvbmcAAADQ" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="10" is-closed="true">
+				<palette id="10" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAbAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGIAcgB1AHMAaABzAHQAeQBsAGUAcgAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAg8AAAAATGVmdGxvbmcAAAF1AAAAAEJ0b21sb25nAAACDwAAAABSZ2h0bG9uZwAAAXU=" host-cached-sizes="true"/>
+				<palette id="11" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAcAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGIAcgB1AHMAaABwAHIAZQBzAGUAdABzAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAAAAAAABMZWZ0bG9uZwAAAAAAAAAAQnRvbWxvbmcAAAAAAAAAAFJnaHRsb25nAAAAAA==" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="12" is-closed="true">
+				<palette id="12" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAbAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGMAbABvAG4AZQBzAG8AdQByAGMAZQAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAQYAAAAATGVmdGxvbmcAAADXAAAAAEJ0b21sb25nAAABBgAAAABSZ2h0bG9uZwAAANc=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="13" is-closed="false">
+				<palette id="13" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAdAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAZQB4AHQAcABhAHIAYQBzAHQAeQBsAGUAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABmAAAAAExlZnRsb25nAAAA0AAAAABCdG9tbG9uZwAAAGYAAAAAUmdodGxvbmcAAADQ" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="14" is-closed="true">
+				<palette id="14" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAbAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAbwBvAGwAcAByAGUAcwBlAHQAcwAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAAAAAAAABSZ2h0bG9uZwAAAAA=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="15" is-closed="true">
+				<palette id="15" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAASAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuADMAZAAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAYoAAAAATGVmdGxvbmcAAADQAAAAAEJ0b21sb25nAAABigAAAABSZ2h0bG9uZwAAANA=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="16" is-closed="false">
+				<palette id="16" is-closed="true" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAA8AHAAYQBuAGUAbABpAGQALgBkAHkAbgBhAG0AaQBjAC4AcwB3AGYALgBjAHMAeABzAC4AYwBvAG0ALgBtAGEAZABlAGIAeQBzAG8AdQByAGMAZQAuAGEAdgBvAGMAbwBkAGUALgBlAHgAdABlAG4AcwBpAG8AbgAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAIAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAATAAAAAATGVmdGxvbmcAAAFPAAAAAEJ0b21sb25nAAABMAAAAABSZ2h0bG9uZwAAAU8AAAARZmxhc2hQYW5lbEFwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAAEAAAAAFR0bCBURVhUAAAACABBAHYAbwBjAG8AZABlAAAAAAAaaG9ub3JJbml0aWFsQVBFU2l6ZVJlcXVlc3Rib29sAAAAABNmbGFzaFBhbmVsUGFuZWxEYXRhVEVYVAAAAAEAAAAAACJkZWZhdWx0Q29uZmlnRm9yV29ya3NwYWNlSXNQZW5kaW5nYm9vbAE=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="18" is-closed="false">
+				<palette id="17" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAWAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGMAcgBlAGEAdABlAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAZQAAAABMZWZ0bG9uZwAAANAAAAAAQnRvbWxvbmcAAABlAAAAAFJnaHRsb25nAAAA0A==" host-cached-sizes="true"/>
+				<palette id="18" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAXAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGEAYwB0AGkAbwBuAHMAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABmAAAAAExlZnRsb25nAAABPAAAAABCdG9tbG9uZwAAARIAAAAAUmdodGxvbmcAAADs" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="19" is-closed="false">
+				<palette id="19" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAA7AHAAYQBuAGUAbABpAGQALgBkAHkAbgBhAG0AaQBjAC4AcwB3AGYALgBjAHMAeABzAC4AYwBvAG0ALgBhAGQAbwBiAGUALgBEAGUAcwBpAGcAbgBMAGkAYgByAGEAcgBpAGUAcwAuAGEAbgBnAHUAbABhAHIAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAACAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAJKAAAAAExlZnRsb25nAAAA7wAAAABCdG9tbG9uZwAAARMAAAAAUmdodGxvbmcAAADvAAAAEWZsYXNoUGFuZWxBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAABAAAAABUdGwgVEVYVAAAAAoATABpAGIAcgBhAHIAaQBlAHMAAAAAABpob25vckluaXRpYWxBUEVTaXplUmVxdWVzdGJvb2wAAAAAE2ZsYXNoUGFuZWxQYW5lbERhdGFURVhUAAAAAQAAAAAAImRlZmF1bHRDb25maWdGb3JXb3Jrc3BhY2VJc1BlbmRpbmdib29sAQ==" host-cached-sizes="true"/>
+				<palette id="20" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAdAHAAYQBuAGUAbABpAGQALgBkAHkAbgBhAG0AaQBjAC4AcwB3AGYALgBjAHMAeABzAC4ASwBMAFIAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAACAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAHHAAAAAExlZnRsb25nAAAA1wAAAABCdG9tbG9uZwAAAkoAAAAAUmdodGxvbmcAAADXAAAAEWZsYXNoUGFuZWxBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAABAAAAABUdGwgVEVYVAAAABMAQQBkAG8AYgBlACAAQwBvAGwAbwByACAAVABoAGUAbQBlAHMAAAAAABpob25vckluaXRpYWxBUEVTaXplUmVxdWVzdGJvb2wAAAAAE2ZsYXNoUGFuZWxQYW5lbERhdGFURVhUAAAAAQAAAAAAImRlZmF1bHRDb25maWdGb3JXb3Jrc3BhY2VJc1BlbmRpbmdib29sAQ==" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+		<toolbar id="21" size-variant="vertical-narrow" is-closed="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAXAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAbwBvAGwAYgBhAHIAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAAA"/>
+		<tab-pane mode="expanded" preferred-iconic-length="0" layout-mode="auto-flow">
+			<tab-group active-palette="22" is-closed="false">
+				<palette id="22" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="true" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAaAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHAAcgBvAHAAZQByAHQAaQBlAHMAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAADYAAAAAExlZnRsb25nAAAA8AAAAABCdG9tbG9uZwAAAOEAAAAAUmdodGxvbmcAAADa" host-cached-sizes="true"/>
+				<palette id="23" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAUAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGkAbgBmAG8AAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABmAAAAAExlZnRsb25nAAAA8AAAAABCdG9tbG9uZwAAAGYAAAAAUmdodGxvbmcAAADw" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="24" is-closed="false">
+				<palette id="24" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="true" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAYAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHMAdwBhAHQAYwBoAGUAcwAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAHMAAAAATGVmdGxvbmcAAADwAAAAAEJ0b21sb25nAAAApgAAAABSZ2h0bG9uZwAAAO8=" host-cached-sizes="true"/>
+			</tab-group>
+			<tab-group active-palette="25" is-closed="false">
+				<palette id="25" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAWAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGwAYQB5AGUAcgBzAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAC5wAAAABMZWZ0bG9uZwAAAPAAAAAAQnRvbWxvbmcAAADBAAAAAFJnaHRsb25nAAAA8A==" host-cached-sizes="true"/>
+				<palette id="26" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAYAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGMAaABhAG4AbgBlAGwAcwAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAvwAAAAATGVmdGxvbmcAAADwAAAAAEJ0b21sb25nAAAAZgAAAABSZ2h0bG9uZwAAANA=" host-cached-sizes="true"/>
+				<palette id="27" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAVAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHAAYQB0AGgAcwAAAAAAFW93bENvbnRlbnRWaWV3QXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAEAAAAcb3dsUGFsZXR0ZVByZWZlcnJlZFNpemVBcnJheVZsTHMAAAABT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAvwAAAAATGVmdGxvbmcAAADwAAAAAEJ0b21sb25nAAAAZgAAAABSZ2h0bG9uZwAAANA=" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="875 127" is-closed="true">
+		<tab-pane mode="expanded" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="28" is-closed="false">
+				<palette id="28" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAXAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGgAaQBzAHQAbwByAHkAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABmAAAAAExlZnRsb25nAAAA0AAAAABCdG9tbG9uZwAAAGYAAAAAUmdodGxvbmcAAADQ" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="878 380" is-closed="true">
+		<tab-pane mode="icon" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="30" is-closed="false">
+				<palette id="29" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAZAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAG4AYQB2AGkAZwBhAHQAbwByAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAdQAAAABMZWZ0bG9uZwAAANAAAAAAQnRvbWxvbmcAAAB1AAAAAFJnaHRsb25nAAAA0A==" host-cached-sizes="true"/>
+				<palette id="30" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAZAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAwAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAXwAAAABMZWZ0bG9uZwAAAM4AAAAAQnRvbWxvbmcAAABfAAAAAFJnaHRsb25nAAAAzgAAAABIUGV4Ym9vbAAAAAAASFBzYWJvb2wA" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="754 197" is-closed="true">
+		<tab-pane mode="expanded" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="31" is-closed="false">
+				<palette id="31" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAWAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHMAdAB5AGwAZQBzAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAcwAAAABMZWZ0bG9uZwAAANAAAAAAQnRvbWxvbmcAAACmAAAAAFJnaHRsb25nAAAA7w==" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="936 342" is-closed="true">
+		<tab-pane mode="icon" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="32" is-closed="false">
+				<palette id="32" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAfAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAZQB4AHQAZwBsAHkAcABoAHMAcABhAG4AZQBsAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAQAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAABIgAAAABMZWZ0bG9uZwAAAPgAAAAAQnRvbWxvbmcAAAEiAAAAAFJnaHRsb25nAAAA+A==" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="953 332" is-closed="true">
+		<tab-pane mode="icon" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="33" is-closed="false">
+				<palette id="33" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAdAHAAYQBuAGUAbABpAGQALgBzAHQAYQB0AGkAYwAuAHQAZQB4AHQAYwBoAGEAcgBzAHQAeQBsAGUAAAAAABVvd2xDb250ZW50Vmlld0FwcERhdGFPYmpjAAAAAQAAAAAAAG51bGwAAAABAAAAHG93bFBhbGV0dGVQcmVmZXJyZWRTaXplQXJyYXlWbExzAAAAAU9iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAABmAAAAAExlZnRsb25nAAAA0AAAAABCdG9tbG9uZwAAAGYAAAAAUmdodGxvbmcAAADQ" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+	<dock anchor="none" content="palette toolbar" origin="974 434" is-closed="true">
+		<tab-pane mode="icon" preferred-iconic-length="39" layout-mode="manual">
+			<tab-group active-palette="34" is-closed="false">
+				<palette id="34" is-closed="false" preferred-unconstrained-size="100 100" preferred-constrained-size="100 100" current-state="1" is-minimized="false" app-data="AAAAEAAAAAEAAAAAAABudWxsAAAAAgAAABdvd2xDb250ZW50Vmlld1N0cmluZ2lJRFRFWFQAAAAxAHAAYQBuAGUAbABpAGQALgBkAHkAbgBhAG0AaQBjAC4AcwB3AGYALgBjAHMAeABzAC4AYwBvAG0ALgBhAGQAbwBiAGUALgBwAHIAZQB2AGkAZQB3AC4AcABhAG4AZQBsAAAAAAAVb3dsQ29udGVudFZpZXdBcHBEYXRhT2JqYwAAAAEAAAAAAABudWxsAAAAAgAAABxvd2xQYWxldHRlUHJlZmVycmVkU2l6ZUFycmF5VmxMcwAAAAFPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAABWAAAAABMZWZ0bG9uZwAAAVEAAAAAQnRvbWxvbmcAAAFYAAAAAFJnaHRsb25nAAABUQAAABFmbGFzaFBhbmVsQXBwRGF0YU9iamMAAAABAAAAAAAAbnVsbAAAAAQAAAAAVHRsIFRFWFQAAAAPAEQAZQB2AGkAYwBlACAAUAByAGUAdgBpAGUAdwAAAAAAGmhvbm9ySW5pdGlhbEFQRVNpemVSZXF1ZXN0Ym9vbAAAAAATZmxhc2hQYW5lbFBhbmVsRGF0YVRFWFQAAAABAAAAAAAiZGVmYXVsdENvbmZpZ0ZvcldvcmtzcGFjZUlzUGVuZGluZ2Jvb2wB" host-cached-sizes="true"/>
+			</tab-group>
+		</tab-pane>
+	</dock>
+</workspace>
+	</photoshop-panel-configuration>
+	<photoshop-shortcut-customization>
+<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/yamoo9workspace=yamoo9-workspace" modified="1">
+	<command kind="dynamic" name="Vanishing Point">
+		<shortcut>Opt+Cmd+V</shortcut>
+	</command>
+	<command kind="dynamic" name="Liquify">
+		<shortcut>Shift+Cmd+X</shortcut>
+	</command>
+	<command kind="dynamic" name="Lens Correction">
+		<shortcut>Shift+Cmd+R</shortcut>
+	</command>
+	<command kind="dynamic" name="Camera Raw Filter">
+		<shortcut>Shift+Cmd+A</shortcut>
+	</command>
+	<command kind="dynamic" name="Wide Angle Correction">
+		<shortcut>Opt+Shift+Cmd+A</shortcut>
+	</command>
+	<command kind="static" id="10" name="New...">
+		<shortcut>Cmd+N</shortcut>
+	</command>
+	<command kind="static" id="20" name="Open...">
+		<shortcut>Cmd+O</shortcut>
+	</command>
+	<command kind="static" id="30" name="Save">
+		<shortcut>Cmd+S</shortcut>
+	</command>
+	<command kind="static" id="31" name="Close">
+		<shortcut>Cmd+W</shortcut>
+	</command>
+	<command kind="static" id="33" name="Save As...">
+		<shortcut>Shift+Cmd+S</shortcut>
+		<shortcut>Opt+Cmd+S</shortcut>
+	</command>
+	<command kind="static" id="34" name="Revert">
+		<shortcut>F12</shortcut>
+	</command>
+	<command kind="static" id="36" name="Quit Photoshop CC">
+		<shortcut>Cmd+Q</shortcut>
+	</command>
+	<command kind="static" id="37" name="Close All">
+		<shortcut>Opt+Cmd+W</shortcut>
+	</command>
+	<command kind="static" id="101" name="Can’t Undo">
+		<shortcut>Cmd+Z</shortcut>
+	</command>
+	<command kind="static" id="103" name="Cut">
+		<shortcut>Cmd+X</shortcut>
+		<shortcut>F2</shortcut>
+	</command>
+	<command kind="static" id="104" name="Copy">
+		<shortcut>Cmd+C</shortcut>
+		<shortcut>F3</shortcut>
+	</command>
+	<command kind="static" id="105" name="Paste">
+		<shortcut>Cmd+V</shortcut>
+		<shortcut>F4</shortcut>
+	</command>
+	<command kind="static" id="177" name="Print One Copy">
+		<shortcut>Opt+Shift+Cmd+P</shortcut>
+	</command>
+	<command kind="static" id="1002" name="Rulers">
+		<shortcut>Cmd+R</shortcut>
+	</command>
+	<command kind="static" id="1004" name="Zoom In">
+		<shortcut>Cmd++</shortcut>
+		<shortcut>Cmd+=</shortcut>
+	</command>
+	<command kind="static" id="1005" name="Zoom Out">
+		<shortcut>Cmd+-</shortcut>
+	</command>
+	<command kind="static" id="1016" name="Deselect">
+		<shortcut>Cmd+D</shortcut>
+	</command>
+	<command kind="static" id="1017" name="All">
+		<shortcut>Cmd+A</shortcut>
+	</command>
+	<command kind="static" id="1018" name="Inverse">
+		<shortcut>Shift+Cmd+I</shortcut>
+		<shortcut>Shift+F7</shortcut>
+	</command>
+	<command kind="static" id="1019" name="Last Filter">
+		<shortcut>Cmd+F</shortcut>
+	</command>
+	<command kind="static" id="1025" name="Brush">
+		<shortcut>F5</shortcut>
+	</command>
+	<command kind="static" id="1030" name="Image Size...">
+		<shortcut>Opt+Cmd+I</shortcut>
+	</command>
+	<command kind="static" id="1031" name="Canvas Size...">
+		<shortcut>Opt+Cmd+C</shortcut>
+	</command>
+	<command kind="static" id="1036" name="Feather...">
+		<shortcut>Shift+F6</shortcut>
+	</command>
+	<command kind="static" id="1040" name="Paste Into">
+		<shortcut>Opt+Shift+Cmd+V</shortcut>
+	</command>
+	<command kind="static" id="1042" name="Fill...">
+		<shortcut>Shift+F5</shortcut>
+	</command>
+	<command kind="static" id="1046" name="Color">
+		<shortcut>F6</shortcut>
+	</command>
+	<command kind="static" id="1055" name="Info">
+		<shortcut>F8</shortcut>
+	</command>
+	<command kind="static" id="1098" name="Layers">
+		<shortcut>F7</shortcut>
+	</command>
+	<command kind="static" id="1099" name="Layer...">
+		<shortcut>Shift+Cmd+N</shortcut>
+	</command>
+	<command kind="static" id="1105" name="Proof Colors">
+		<shortcut>Cmd+Y</shortcut>
+	</command>
+	<command kind="static" id="1106" name="Gamut Warning">
+		<shortcut>Shift+Cmd+Y</shortcut>
+	</command>
+	<command kind="static" id="1107" name="Copy Merged">
+		<shortcut>Shift+Cmd+C</shortcut>
+	</command>
+	<command kind="static" id="1114" name="Hide Layers">
+		<shortcut>Cmd+,</shortcut>
+	</command>
+	<command kind="static" id="1115" name="Refine Mask...">
+		<shortcut>Opt+Cmd+R</shortcut>
+	</command>
+	<command kind="static" id="1137" name="File Info...">
+		<shortcut>Opt+Shift+Cmd+I</shortcut>
+	</command>
+	<command kind="static" id="1139" name="Merge Visible">
+		<shortcut>Shift+Cmd+E</shortcut>
+	</command>
+	<command kind="static" id="1154" name="Fade...">
+		<shortcut>Shift+Cmd+F</shortcut>
+	</command>
+	<command kind="static" id="1166" name="Merge Layers">
+		<shortcut>Cmd+E</shortcut>
+	</command>
+	<command kind="static" id="1170" name="Actions">
+		<shortcut>Opt+F9</shortcut>
+	</command>
+	<command kind="static" id="1190" name="100%">
+		<shortcut>Cmd+1</shortcut>
+		<shortcut>Opt+Cmd+0</shortcut>
+	</command>
+	<command kind="static" id="1192" name="Fit on Screen">
+		<shortcut>Cmd+0</shortcut>
+	</command>
+	<command kind="static" id="1297" name="Paste in Place">
+		<shortcut>Shift+Cmd+V</shortcut>
+	</command>
+	<command kind="static" id="1520" name="Browse in Bridge...">
+		<shortcut>Opt+Cmd+O</shortcut>
+		<shortcut>Shift+Cmd+O</shortcut>
+	</command>
+	<command kind="static" id="1530" name="Close and Go to Bridge...">
+		<shortcut>Shift+Cmd+W</shortcut>
+	</command>
+	<command kind="static" id="1695" name="Save for Web (Legacy)...">
+		<shortcut>Opt+Shift+Cmd+S</shortcut>
+	</command>
+	<command kind="static" id="1701" name="Invert">
+		<shortcut>Cmd+I</shortcut>
+	</command>
+	<command kind="static" id="1801" name="Levels...">
+		<shortcut>Cmd+L</shortcut>
+	</command>
+	<command kind="static" id="1802" name="Curves...">
+		<shortcut>Cmd+M</shortcut>
+	</command>
+	<command kind="static" id="1804" name="Color Balance...">
+		<shortcut>Cmd+B</shortcut>
+	</command>
+	<command kind="static" id="1805" name="Hue/Saturation...">
+		<shortcut>Cmd+U</shortcut>
+	</command>
+	<command kind="static" id="1808" name="Auto Tone">
+		<shortcut>Shift+Cmd+L</shortcut>
+	</command>
+	<command kind="static" id="1809" name="Desaturate">
+		<shortcut>Shift+Cmd+U</shortcut>
+	</command>
+	<command kind="static" id="1810" name="Auto Contrast">
+		<shortcut>Opt+Shift+Cmd+L</shortcut>
+	</command>
+	<command kind="static" id="1817" name="Auto Color">
+		<shortcut>Shift+Cmd+B</shortcut>
+	</command>
+	<command kind="static" id="1824" name="Black &amp; White...">
+		<shortcut>Opt+Shift+Cmd+B</shortcut>
+	</command>
+	<command kind="static" id="1943" name="Reselect">
+		<shortcut>Shift+Cmd+D</shortcut>
+	</command>
+	<command kind="static" id="1961" name="Step Backward">
+		<shortcut>Opt+Cmd+Z</shortcut>
+	</command>
+	<command kind="static" id="1962" name="Step Forward">
+		<shortcut>Shift+Cmd+Z</shortcut>
+	</command>
+	<command kind="static" id="2101" name="Print...">
+		<shortcut>Cmd+P</shortcut>
+	</command>
+	<command kind="static" id="2207" name="Free Transform">
+		<shortcut>Cmd+T</shortcut>
+	</command>
+	<command kind="static" id="2217" name="Again">
+		<shortcut>Shift+Cmd+T</shortcut>
+	</command>
+	<command kind="static" id="2220" name="Content-Aware Scale">
+		<shortcut>Opt+Shift+Cmd+C</shortcut>
+	</command>
+	<command kind="static" id="2311" name="General...">
+		<shortcut>Cmd+K</shortcut>
+	</command>
+	<command kind="static" id="2344" name="Color Settings...">
+		<shortcut>Shift+Cmd+K</shortcut>
+	</command>
+	<command kind="static" id="2711" name="Bring to Front">
+		<shortcut>Shift+Cmd+]</shortcut>
+	</command>
+	<command kind="static" id="2712" name="Bring Forward">
+		<shortcut>Cmd+]</shortcut>
+	</command>
+	<command kind="static" id="2713" name="Send Backward">
+		<shortcut>Cmd+[</shortcut>
+	</command>
+	<command kind="static" id="2714" name="Send to Back">
+		<shortcut>Shift+Cmd+[</shortcut>
+	</command>
+	<command kind="static" id="2860" name="Record Measurements">
+		<shortcut>Shift+Cmd+M</shortcut>
+	</command>
+	<command kind="static" id="2940" name="Lock Guides">
+		<shortcut>Opt+Cmd+;</shortcut>
+	</command>
+	<command kind="static" id="2957" name="Lock Layers...">
+		<shortcut>Cmd+/</shortcut>
+	</command>
+	<command kind="static" id="2958" name="Group Layers">
+		<shortcut>Cmd+G</shortcut>
+	</command>
+	<command kind="static" id="2959" name="Ungroup Layers">
+		<shortcut>Shift+Cmd+G</shortcut>
+	</command>
+	<command kind="static" id="2962" name="All Layers">
+		<shortcut>Opt+Cmd+A</shortcut>
+	</command>
+	<command kind="static" id="2970" name="Layer Via Copy">
+		<shortcut>Cmd+J</shortcut>
+	</command>
+	<command kind="static" id="2971" name="Layer Via Cut">
+		<shortcut>Shift+Cmd+J</shortcut>
+	</command>
+	<command kind="static" id="2972" name="Create Clipping Mask">
+		<shortcut>Opt+Cmd+G</shortcut>
+	</command>
+	<command kind="static" id="2976" name="Group...">
+		<shortcut>Opt+Shift+Cmd+G</shortcut>
+	</command>
+	<command kind="static" id="2982" name="Find Layers">
+		<shortcut>Opt+Shift+Cmd+F</shortcut>
+	</command>
+	<command kind="static" id="3500" name="Extras">
+		<shortcut>Cmd+H</shortcut>
+	</command>
+	<command kind="static" id="3502" name="Target Path">
+		<shortcut>Shift+Cmd+H</shortcut>
+	</command>
+	<command kind="static" id="3503" name="Guides">
+		<shortcut>Cmd+;</shortcut>
+	</command>
+	<command kind="static" id="3504" name="Grid">
+		<shortcut>Cmd+'</shortcut>
+	</command>
+	<command kind="static" id="3520" name="Snap">
+		<shortcut>Shift+Cmd+;</shortcut>
+	</command>
+	<command kind="static" id="4008" name="Photoshop Online Help...">
+		<shortcut>Shift+Cmd+/</shortcut>
+	</command>
+	<command kind="static" id="5932" name="Minimize">
+		<shortcut>Control+Cmd+M</shortcut>
+	</command>
+	<command kind="static" id="5980" name="Keyboard Shortcuts...">
+		<shortcut>Opt+Shift+Cmd+K</shortcut>
+	</command>
+	<command kind="static" id="5982" name="Menus...">
+		<shortcut>Opt+Shift+Cmd+M</shortcut>
+	</command>
+	<command kind="static" id="6384" name="Within Selection">
+		<shortcut>Opt+Cmd+X</shortcut>
+	</command>
+	<command kind="static" id="6386" name="Reveal All">
+		<shortcut>Opt+Shift+Cmd+X</shortcut>
+	</command>
+	<command kind="static" id="6545" name="Render">
+		<shortcut>Opt+Shift+Cmd+R</shortcut>
+	</command>
+	<command kind="static" id="7001" name="Hide Photoshop CC">
+		<shortcut>Control+Cmd+H</shortcut>
+	</command>
+	<command kind="static" id="7002" name="Hide Others">
+		<shortcut>Opt+Cmd+H</shortcut>
+	</command>
+	<tool name="Move Tool" type="1" key="1819113074">V</tool>
+	<tool name="Artboard Tool" type="1" key="1098019924"></tool>
+	<tool name="Rectangular Marquee Tool" type="1" key="1919380852">M</tool>
+	<tool name="Elliptical Marquee Tool" type="1" key="1701604724">M</tool>
+	<tool name="Single Row Marquee Tool" type="1" key="1936878964"></tool>
+	<tool name="Single Column Marquee Tool" type="1" key="1935895924"></tool>
+	<tool name="Lasso Tool" type="1" key="1818325871">L</tool>
+	<tool name="Polygonal Lasso Tool" type="1" key="1885826926">L</tool>
+	<tool name="Magnetic Lasso Tool" type="1" key="1835819379">L</tool>
+	<tool name="Quick Selection Tool" type="1" key="1902867308">W</tool>
+	<tool name="Magic Wand Tool" type="1" key="2002873956">W</tool>
+	<tool name="Eyedropper Tool" type="1" key="1702454628">I</tool>
+	<tool name="3D Material Eyedropper Tool" type="1" key="860115789">I</tool>
+	<tool name="Color Sampler Tool" type="1" key="1668246643">I</tool>
+	<tool name="Ruler Tool" type="1" key="1835360596">I</tool>
+	<tool name="Note Tool" type="1" key="1417180225">I</tool>
+	<tool name="Count Tool" type="1" key="1668248942">I</tool>
+	<tool name="Crop Tool" type="1" key="1668444016">C</tool>
+	<tool name="Perspective Crop Tool" type="1" key="1885565552">C</tool>
+	<tool name="Slice Tool" type="1" key="1399612244">C</tool>
+	<tool name="Slice Select Tool" type="1" key="1399608148">C</tool>
+	<tool name="Spot Healing Brush Tool" type="1" key="1936746562">J</tool>
+	<tool name="Healing Brush Tool" type="1" key="1937010029">J</tool>
+	<tool name="Patch Tool" type="1" key="1886675816">J</tool>
+	<tool name="Content-Aware Move Tool" type="1" key="1919118704">J</tool>
+	<tool name="Red Eye Tool" type="1" key="1919182201">J</tool>
+	<tool name="Brush Tool" type="1" key="1886286946">B</tool>
+	<tool name="Pencil Tool" type="1" key="1885695587">B</tool>
+	<tool name="Color Replacement Tool" type="1" key="1668440692">B</tool>
+	<tool name="Mixer Brush Tool" type="1" key="2003137634">B</tool>
+	<tool name="Clone Stamp Tool" type="1" key="1937006957">S</tool>
+	<tool name="Pattern Stamp Tool" type="1" key="1937010032">S</tool>
+	<tool name="History Brush Tool" type="1" key="1752396866">Y</tool>
+	<tool name="Art History Brush Tool" type="1" key="1634230900">Y</tool>
+	<tool name="Eraser Tool" type="1" key="1701994867">E</tool>
+	<tool name="Background Eraser Tool" type="1" key="1936028257">E</tool>
+	<tool name="Magic Eraser Tool" type="1" key="1835364961">E</tool>
+	<tool name="Gradient Tool" type="1" key="1651401812">G</tool>
+	<tool name="Paint Bucket Tool" type="1" key="1651860331">G</tool>
+	<tool name="3D Material Drop Tool" type="1" key="860111949">G</tool>
+	<tool name="Blur Tool" type="1" key="1651275122"></tool>
+	<tool name="Sharpen Tool" type="1" key="1936220530"></tool>
+	<tool name="Smudge Tool" type="1" key="1936553316"></tool>
+	<tool name="Dodge Tool" type="1" key="1685021799">O</tool>
+	<tool name="Burn Tool" type="1" key="1651864174">O</tool>
+	<tool name="Sponge Tool" type="1" key="1935766645">O</tool>
+	<tool name="Pen Tool" type="1" key="1885695572">P</tool>
+	<tool name="Freeform Pen Tool" type="1" key="1836082542">P</tool>
+	<tool name="Add Anchor Point Tool" type="1" key="1634430580"></tool>
+	<tool name="Delete Anchor Point Tool" type="1" key="1684762228"></tool>
+	<tool name="Convert Point Tool" type="1" key="1667985012"></tool>
+	<tool name="Horizontal Type Tool" type="1" key="1954038392">T</tool>
+	<tool name="Vertical Type Tool" type="1" key="1954038358">T</tool>
+	<tool name="Horizontal Type Mask Tool" type="1" key="1954115667">T</tool>
+	<tool name="Vertical Type Mask Tool" type="1" key="1987344723">T</tool>
+	<tool name="Path Selection Tool" type="1" key="1885565780">A</tool>
+	<tool name="Direct Selection Tool" type="1" key="1886677089">A</tool>
+	<tool name="Rectangle Tool" type="1" key="1382376308">U</tool>
+	<tool name="Rounded Rectangle Tool" type="1" key="1381131124">U</tool>
+	<tool name="Ellipse Tool" type="1" key="1164734579">U</tool>
+	<tool name="Polygon Tool" type="1" key="1349479545">U</tool>
+	<tool name="Line Tool" type="1" key="1818848852">U</tool>
+	<tool name="Custom Shape Tool" type="1" key="1131762536">U</tool>
+	<tool name="Hand Tool" type="1" key="1751215716">H</tool>
+	<tool name="Rotate View Tool" type="1" key="1919906932">R</tool>
+	<tool name="Zoom Tool" type="1" key="2054123373">Z</tool>
+	<tool name="Targeted Adjustment Tool" type="1" key="1952932196"></tool>
+	<tool name="Default Foreground/Background Colors" type="2">D</tool>
+	<tool name="Switch Foreground/Background Colors" type="3">X</tool>
+	<tool name="Toggle Standard/Quick Mask Modes" type="4">Q</tool>
+	<tool name="Toggle Screen Modes" type="5">F</tool>
+	<tool name="Toggle Preserve Transparency" type="6">/</tool>
+	<tool name="Decrease Brush Size" type="7">[</tool>
+	<tool name="Increase Brush Size" type="8">]</tool>
+	<tool name="Decrease Brush Hardness" type="9">{</tool>
+	<tool name="Increase Brush Hardness" type="10">}</tool>
+	<tool name="Previous Brush" type="11">,</tool>
+	<tool name="Next Brush" type="12">.</tool>
+	<tool name="First Brush" type="13">&lt;</tool>
+	<tool name="Last Brush" type="14">&gt;</tool>
+	<tool name="Foreground Color Picker" type="15"></tool>
+	<tool name="Background Color Picker" type="16"></tool>
+	<tool name="Load Mixer Brush" type="17"></tool>
+	<tool name="Clean Mixer Brush" type="18"></tool>
+	<tool name="Toggle Mixer Brush Auto-Load" type="19"></tool>
+	<tool name="Toggle Mixer Brush Auto-Clean" type="20"></tool>
+	<tool name="Toggle Mixer Brush Sample All Layers" type="21"></tool>
+	<tool name="Sharpen Erodible Tips" type="22"></tool>
+	<tool name="Direct Selection Mode Toggle" type="23"></tool>
+</photoshop-keyboard-shortcuts>
+	</photoshop-shortcut-customization>
+	<photoshop-menu-customization>
+<photoshop-menu-settings version="2" filename="$$$/FileName/Presets/MenuCustomization/yamoo9workspace=yamoo9-workspace" modified="1">
+</photoshop-menu-settings>
+	</photoshop-menu-customization>
+</photoshop-workspace>
