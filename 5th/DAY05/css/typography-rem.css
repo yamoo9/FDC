@@ -1,0 +1,61 @@
+html {
+  /* rem 단위의 기준 설정 값 */
+  /* 왜? 10px로 설정하는가? 계산이 용이해지기 때문 */
+  font-size: 10px;
+}
+
+/* 가이드라인 화면에 보여준다. */
+body {
+  height: 100vh;
+  margin: 0;
+  background: url("../assets/leading-pattern-21.png");
+  /* 본문 디자인(공통 속성 상속) */
+  color: #6b6a6a;
+  font: 300 1.4rem/1.5 'Nanum Barun Gothic';
+}
+
+/* 단락 디자인 */
+p {
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+}
+
+/* 제목 디자인: modular scale = 1.24 */
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+  color: #272727;
+}
+
+h2, h3, h4 {
+  font-weight: 300;
+  line-height: 4.2rem;
+}
+
+h5, h6 {
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 5.0890rem;
+  line-height: 6.3rem;
+}
+h2 { font-size: 4.1041rem; }
+h3 { font-size: 3.3098rem; }
+h4 { font-size: 2.6692rem; }
+h5 { font-size: 2.1526rem; }
+h6 { font-size: 1.736rem;  }
+
+
+.align-justify {
+  text-align: justify;
+}
+
+.container {
+  width: 820px;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
