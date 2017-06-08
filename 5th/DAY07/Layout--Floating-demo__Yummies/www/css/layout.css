@@ -14,3 +14,19 @@
  * #fbf1e3
  * #ffffff
  */
+
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 1.4rem;
+}
+
+.iconset {
+  margin: 4rem;
+}
