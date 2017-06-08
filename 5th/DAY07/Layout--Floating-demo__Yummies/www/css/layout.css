@@ -1,22 +1,3 @@
-/*
- * Color List
- * #f7dcd5
- * #fbf3e3
- * #f8e8da
- * #f6f8f8
- * #faebd7
- * #fbf6e4
- * #faeae9
- * #fdf8f1
- * #eadfe9
- * #f2f6f5
- * #faebea
- * #fbf1e3
- * #ffffff
- */
-
-
-
 html {
   font-size: 10px;
 }
@@ -28,5 +9,36 @@ body {
 }
 
 .iconset {
-  margin: 4rem;
+  border: 0.1rem solid #efefef;
 }
+
+.iconset::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.icon-wrapper {
+  float: left;
+  width: 25%;
+  height: 33.3333vh;
+  text-align: center;
+  line-height: 33.3333vh;
+}
+
+.icon-wrapper img {
+  vertical-align: middle;
+}
+
+.icon-wrapper:nth-child(2)  { background: #fbf1e3; }
+.icon-wrapper:nth-child(4)  { background: #fbf6e4; }
+.icon-wrapper:nth-child(5)  { background: #f6f8f8; }
+.icon-wrapper:nth-child(7)  { background: #faebd7; }
+.icon-wrapper:nth-child(10) { background: #faeae9; }
+.icon-wrapper:nth-child(12) { background: #fdf8f1; }
+.icon-wrapper:nth-child(13) { background: #eadfe9; }
+.icon-wrapper:nth-child(15) { background: #f2f6f5; }
+.icon-wrapper:nth-child(18) { background: #faebea; }
+.icon-wrapper:nth-child(20) { background: #f7dcd5; }
+.icon-wrapper:nth-child(21) { background: #f8e8da; }
+.icon-wrapper:nth-child(23) { background: #fbf3e3; }

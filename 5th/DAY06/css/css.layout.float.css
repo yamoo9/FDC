@@ -11,6 +11,11 @@ body {
   float: left;
   margin-right: 2rem;
 }
+.wrapper::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 .is-clear {
   clear: both;
 }
