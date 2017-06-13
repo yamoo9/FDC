@@ -13,7 +13,7 @@ body {
 }
 /* 기준선 가이드 (Baseline Guide) */
 .guide {
-  height: 100vh;
+  height: 300vh;
   background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
   background-size: 0.1rem 2.1rem;
 }
@@ -35,6 +35,10 @@ body {
 }
 .toggle-guide:hover {
   background: hsla(246.9, 60.2%, 63.4%, 0.95);
+}
+
+img {
+  vertical-align: middle;
 }
 
 /*타이포그래피*/
@@ -78,8 +82,11 @@ h6 {
 }
 
 /* 목록 디자인 */
-ol {
-
+.reset-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+  padding-left: 0;
 }
 li {
 
@@ -109,4 +116,36 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding-top: 8.4rem;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  margin-top: 4.2rem;
+}
+/*.section-important {}*/
+.order-teeth-manage {
+  margin-top: 4.2rem;
+  counter-reset: order-teeth-manage;
+}
+.order-teeth-manage li::before {
+  content: counter(order-teeth-manage) '.';
+  counter-increment: order-teeth-manage;
+  margin-right: 5px;
+}
+
+.order-title {
+  display: inline-block;
+  margin-bottom: 2.1rem;
+  font-weight: 700;
+  color: #787f94;
+  letter-spacing: -0.01em;
+}
+
+.section-QnA {}
+
+footer {
+
 }
