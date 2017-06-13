@@ -17,6 +17,25 @@ body {
   background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
   background-size: 0.1rem 2.1rem;
 }
+.toggle-guide {
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  padding: 1em;
+  background: hsla(246.9, 60.2%, 63.4%, 0.65);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.45s ease-in-out;
+  box-shadow: 0 1px 4px hsla(0, 0%, 40%, 0.35);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+.toggle-guide:hover {
+  background: hsla(246.9, 60.2%, 63.4%, 0.95);
+}
 
 /*타이포그래피*/
 p, h1, h2, h3, h4, h5, h6 {
