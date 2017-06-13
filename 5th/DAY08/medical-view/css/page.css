@@ -38,26 +38,75 @@ body {
 }
 
 /*타이포그래피*/
-p, h1, h2, h3, h4, h5, h6 {
+/* 공통 디자인 */
+p, h1, h3, h5, h6 {
   margin-top: 0;
   margin-bottom: 2.1rem;
 }
+/* 단락 디자인 */
 p {
   letter-spacing: -0.02em;
 }
+/* 제목 디자인 */
+h1,h3,h5,h6 {
+  letter-spacing: -0.05em;
+}
+h1, h3 {
+  /*font-weight: 300;*/
+  font-weight: 200;
+  color: #333741;
+}
+h5, h6 {
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+h1 {
+  font-size: 5.46rem;
+  line-height: 6.3rem;
+}
+h3 {
+  font-size: 3.17rem;
+  line-height: 4.2rem;
+}
+h5 {
+  font-size: 1.838rem;
+  color: #787f94;
+}
+h6 {
+  font-size: 1.56rem;
+  color: #47494e;
+}
 
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
-ul {}
-li {}
-a:link {}
-a:visited {}
-a:hover {}
-a:focus {}
-a:active {}
+/* 목록 디자인 */
+ol {
+
+}
+li {
+
+}
+dl {
+
+}
+dt {
+
+}
+dd {
+
+}
+
+/* 하이퍼링크 디자인 */
+a:link {
+  color: #227e92;
+  text-decoration: none;
+}
+a:hover {
+  color: #41b4cd;
+}
 
 /*레이아웃*/
+.container {
+  width: 82rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8.4rem;
+}
