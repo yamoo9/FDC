@@ -1,0 +1,44 @@
+/*초기화*/
+html {
+  overflow-y: scroll;
+  font-size: 10px;
+  background: #fff;
+}
+body {
+  margin: 0;
+  font-size:  1.4rem;
+  font-family: "Spoqa Han Sans", Dotum, Sans-Serif;
+  line-height: 1.5;
+  color: #333741;
+}
+/* 기준선 가이드 (Baseline Guide) */
+.guide {
+  height: 100vh;
+  background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
+  background-size: 0.1rem 2.1rem;
+}
+
+/*타이포그래피*/
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+}
+p {
+  letter-spacing: -0.02em;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+ul {}
+li {}
+a:link {}
+a:visited {}
+a:hover {}
+a:focus {}
+a:active {}
+
+/*레이아웃*/
