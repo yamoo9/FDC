@@ -1,8 +1,9 @@
 body {
   margin: 0;
+  background: #000;
 }
-
 .banner {
+  overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,7 +13,35 @@ body {
   margin-left: -400px;
   background: #222;
 }
-
-.banner.all-bg {
-
+.banner-apes,
+.banner-golliras,
+.banner-kingkong,
+.banner-logo,
+.banner-content,
+.banner-headline {
+   position: absolute;
+}
+.banner-apes {
+  top: 170px;
+  left: 4px;
+}
+.banner-golliras {
+  top: 110px;
+  left: 11px;
+}
+.banner-kingkong {
+  bottom: 0;
+  right: 11px;
+}
+.banner-logo {
+  top: 19px;
+  left: 18px;
+}
+.banner-content {
+  top: 0;
+  left: 0;
+}
+.banner-headline {
+  top: 28px;
+  left: 122px;
 }
