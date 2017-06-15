@@ -130,10 +130,29 @@ main {
   margin-top: 4.2rem;
   counter-reset: order-teeth-manage;
 }
-.order-teeth-manage li::before {
+.order-teeth-manage li {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-bottom: 1px dashed #a9a9a9;
+}
+.order-teeth-manage li:last-child {
+  border-bottom: none;
+}
+/*.order-teeth-manage li::before {
   content: counter(order-teeth-manage) '.';
   counter-increment: order-teeth-manage;
   margin-right: 5px;
+}*/
+.order-index {
+  font-weight: 400;
+  color: #323434;
+}
+.order-img {
+  float: left;
+  margin-right: 1rem;
+}
+.order-content {
+  overflow: hidden;
 }
 
 .order-title {

@@ -1,0 +1,22 @@
+body {
+  margin: 30px;
+}
+.box-parent {
+  border: 1px solid #aaa;
+}
+.box-child {
+  width: 200px;
+  height: 110px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 110px;
+  font-size: 20px;
+  background: #111;
+  color: #fff;
+}
+.box-child:last-child {
+  margin-bottom: 0;
+}
+.is-1st { background: #3ab982; }
+.is-2nd { background: #e5be9b; }
+.is-3rd { background: #fd414b; }
