@@ -7,10 +7,10 @@ body {
   font: 300 1.45rem Verdana;
   color: #222;
 }
-.is-float {
+/*.is-float {
   float: left;
   margin-right: 2rem;
-}
+}*/
 .wrapper::after {
   content: '';
   display: block;
