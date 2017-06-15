@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 320px;
+  margin-top: -160px;
+  margin-left: -400px;
+  background: #222;
+}
+
+.banner.all-bg {
+
+}
