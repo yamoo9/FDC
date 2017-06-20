@@ -1,12 +1,19 @@
 @charset "utf-8";
 /*! grace.banner.css @ 2017, yamoo9.net */
 
-/* 사용자가 선택한 블록(Block)을 스타일 가능 */
-/* 디자이너가 톤앤메너를 지키고자 할 경우 사용 */
+html {
+  background-color: #f5f5f5;
+}
+
+/*
+ * 사용자가 선택한 블록(Block)을 스타일 가능
+ * 디자이너가 톤앤메너를 지키고자 할 경우 사용
+ */
 ::selection {
   background: #dba68f;
   color: #fff;
 }
+
 
 /* -----------------------------------------------------------------------------
  * 웹폰트 모듈
@@ -14,6 +21,7 @@
 
 .baskerville {
   font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
 }
 
 .is-italic {
@@ -45,8 +53,9 @@
   border-radius: 10px;
   transition: box-shadow 1.2s ease-in-out;
 }
+
 .grace-ui.banner:hover {
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 40px rgba(190, 172, 125, 0.36);
 }
 
 .is-centerXY {
@@ -111,6 +120,7 @@
   border-radius: 20px;
   transition: all 600ms cubic-bezier(0, 0, 0, 1.13) 0.2s;
 }
+
 .banner-review-link:hover {
   background: #dba68f;
 }
