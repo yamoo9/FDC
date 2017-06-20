@@ -1,0 +1,42 @@
+/*! grace.banner.css @ 2017, yamoo9.net */
+
+/* -----------------------------------------------------------------------------
+ * 웹 폰트 모듈
+ * --------------------------------------------------------------------------- */
+.baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+.is-italic {
+  font-style: italic;
+}
+
+.montserrat {
+  font-weight: 300; /* Light */
+  font-family: 'Montserrat', sans-serif;
+}
+.is-bold {
+  font-weight: 700; /* Bold */
+}
+
+/* -----------------------------------------------------------------------------
+ * 배너 디자인
+ * --------------------------------------------------------------------------- */
+.grace-ui.banner {
+  width: 580px;
+  height: 215px;
+  background: #fff url("../images/people.png") no-repeat 88px 9px;
+  /*border: 1px solid #cdcdcd;*/
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.is-centerXY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -107.5px;
+  margin-left: -290px;
+}
+
+.banner-category {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
