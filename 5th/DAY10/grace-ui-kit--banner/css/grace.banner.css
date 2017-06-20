@@ -1,33 +1,54 @@
+@charset "utf-8";
 /*! grace.banner.css @ 2017, yamoo9.net */
 
+/* 사용자가 선택한 블록(Block)을 스타일 가능 */
+/* 디자이너가 톤앤메너를 지키고자 할 경우 사용 */
+::selection {
+  background: #dba68f;
+  color: #fff;
+}
+
 /* -----------------------------------------------------------------------------
- * 웹 폰트 모듈
+ * 웹폰트 모듈
  * --------------------------------------------------------------------------- */
+
 .baskerville {
   font-family: 'Libre Baskerville', serif;
 }
+
 .is-italic {
   font-style: italic;
 }
 
 .montserrat {
-  font-weight: 300; /* Light */
+  font-weight: 300;
+  /* Light */
   font-family: 'Montserrat', sans-serif;
 }
+
 .is-bold {
-  font-weight: 700; /* Bold */
+  font-weight: 700;
+  /* Bold */
 }
+
 
 /* -----------------------------------------------------------------------------
  * 배너 디자인
  * --------------------------------------------------------------------------- */
+
 .grace-ui.banner {
   width: 580px;
   height: 215px;
   background: #fff url("../images/people.png") no-repeat 88px 9px;
-  /*border: 1px solid #cdcdcd;*/
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border: 1px solid rgba(238, 238, 238, 0.51);
+  box-shadow: none;
+  border-radius: 10px;
+  transition: box-shadow 1.2s ease-in-out;
 }
+.grace-ui.banner:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
 .is-centerXY {
   position: absolute;
   top: 50%;
@@ -37,6 +58,59 @@
 }
 
 .banner-category {
+  position: absolute;
+  top: 97px;
+  left: 21px;
   font-size: 12px;
   letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.banner-headline {
+  margin: 0;
+  position: absolute;
+  top: 28px;
+  right: 61px;
+  color: #dba68f;
+  font-size: 36px;
+  letter-spacing: -0.14px;
+  line-height: 1.1111;
+}
+
+.banner-review {
+  position: absolute;
+  bottom: 12px;
+  left: 375px;
+}
+
+.banner-review * {
+  padding-left: 24px;
+  font-size: 13px;
+}
+
+.banner-review .review-view {
+  margin-right: 13px;
+  background: url("../images/icon-view.svg") no-repeat 0 50%;
+}
+
+.banner-review .review-comments {
+  background: url("../images/icon-comments.svg") no-repeat 0 50%;
+}
+
+.banner-review-link {
+  position: absolute;
+  bottom: 52px;
+  right: 48px;
+  padding: 0.7em 1.45em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  border-radius: 20px;
+  transition: all 600ms cubic-bezier(0, 0, 0, 1.13) 0.2s;
+}
+.banner-review-link:hover {
+  background: #dba68f;
 }
