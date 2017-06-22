@@ -1,0 +1,40 @@
+/*! album.css @ 2017, yamoo9.net */
+html {
+  background: #fff;
+}
+body {
+  margin: 0;
+}
+.vignette {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(circle, #7b7b7b, #222)
+}
+
+.album {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 287px;
+  height: 287px;
+  transform: translate(-50%, -50%);
+}
+.album-item {
+  position: absolute;
+}
+
+.album-item.cover {
+  z-index: 100;
+}
+.album-item.sleeve {
+  z-index: 10;
+  top: -5px;
+  right: -25px;
+}
+.album-item.disk {
+  top: -5px;
+  right: -80px;
+}
