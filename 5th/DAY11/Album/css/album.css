@@ -69,12 +69,12 @@ body {
 @keyframes infinite-rotate-disk {
   /* 키 프레임 */
   /* 시작(from) - 끝(to) */
-  /*from {
+  from {
     transform: rotate(720deg);
   }
   to {
     transform: rotate(0deg);
-  }*/
+  }
   /* 시작(0%) - 끝(100%) */
   /*0% {
     transform: rotate(720deg);
