@@ -23,6 +23,30 @@ body {
   padding-left: 0;
 }
 
+.tablist::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.tablist-item {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+.tablist-item.active .tab {
+  color: #12407e;
+}
+.tab {
+  display: block;
+  padding: 1.6666em 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
+}
+
 .tabpanel-link {
   font-family: "Libre Baskerville", serif;
 }
