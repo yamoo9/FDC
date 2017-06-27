@@ -64,14 +64,13 @@ body {
 .tablist-item.active::before {
   content: '';
   position: absolute;
-  width: 0;
-  height: 0;
-  bottom: -7px;
-  left: 50%;
-  margin-left: -3.5px;
-  border-top: 7px solid #fff;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
+  width: 8px;
+  height: 8px;
+  bottom: -5px;
+  background: #fff;
+  border-left: 1px solid #dedfe5;
+  border-bottom: 1px solid #dedfe5;
+  transform: rotate(-45deg);
 }
 
 .tab {
