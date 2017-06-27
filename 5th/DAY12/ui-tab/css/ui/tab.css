@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * tab-component 디자인
+ */
+.tab-component, .tab-component * {
+  box-sizing: border-box;
+}
+
+.tab-component {
+  overflow: hidden;
+  width: 380px;
+  height: 450px;
+}
+
+.tab-component ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.tabpanel-link {
+  font-family: "Libre Baskerville", serif;
+}
