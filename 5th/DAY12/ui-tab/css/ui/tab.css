@@ -85,11 +85,10 @@ body {
   color: #000;
 }
 
-.tabpanels {
+.tab-component .tabpanel-list {
+  padding: 40px 30px 10px 30px;
   background: #fff;
-  padding-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
+  border-bottom: 1px solid #dedfe5;
 }
 
 .tabpanel-list .tabpanel-item {
@@ -126,4 +125,60 @@ body {
   /*text-decoration: none;*/
   /*border-bottom: 1px solid currentColor;*/
   color: #000;
+}
+
+.tabpanel-control {
+  background: #fff;
+  padding: 13px 20px 17px 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.tabpanel-control::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.control-indicator {
+  float: left;
+}
+
+.indicator {
+  overflow: hidden;
+  display: inline-block;
+  text-indent: -999em;
+  width: 10px;
+  height: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background: #dedfe5;
+}
+.indicator.active {
+  position: relative;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 2px solid #12407e;
+}
+
+.indicator,
+.link.is-view-all {
+  text-decoration: none;
+}
+
+.link.is-view-all {
+  float: right;
+  position: relative;
+  top: 2px;
+  padding-right: 42px;
+  color: #12407e;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.link.is-view-all svg {
+  position: absolute;
+  top: -2px;
+  right: 0;
 }
