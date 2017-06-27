@@ -1,6 +1,18 @@
 body {
-  margin: 0;
+  margin: 30px;
   font-family: "Montserrat", sans-serif;
+  background: #f5f5f5;
+}
+
+.guide:hover::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, transparent 9px, hsla(244.5, 70.7%, 73.4%, 0.5) 9px);
+  background-size: 1px 10px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -11,7 +23,6 @@ body {
 }
 
 .tab-component {
-  overflow: hidden;
   width: 380px;
   height: 450px;
 }
@@ -32,13 +43,40 @@ body {
   float: left;
   width: 33.3333%;
   text-align: center;
+  background: #fff;
+  border-right: 1px solid #dedfe5;
+  border-bottom: 1px solid #dedfe5;
+}
+.tablist-item:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tablist-item:last-child {
+  border-radius: 0 10px 0 0;
+  border-right: 0;
 }
 .tablist-item.active .tab {
   color: #12407e;
 }
+/* 아래쪽 방향 화살표 그리기 */
+.tablist-item.active {
+  position: relative;
+}
+.tablist-item.active::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -7px;
+  left: 50%;
+  margin-left: -3.5px;
+  border-top: 7px solid #fff;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
 .tab {
   display: block;
-  padding: 1.6666em 0;
+  padding: 1.4em 0;
   text-decoration: none;
   font-weight: 700;
   font-size: 12px;
