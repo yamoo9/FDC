@@ -85,6 +85,14 @@ body {
   color: #000;
 }
 
+.tabpanel {
+  display: none;
+}
+
+.tabpanel.active {
+  display: block;
+}
+
 .tab-component .tabpanel-list {
   padding: 40px 30px 10px 30px;
   background: #fff;
