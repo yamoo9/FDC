@@ -1,0 +1,38 @@
+/*! gs.css @ 2017, yamoo9.net */
+html {
+  font-size: 10px;
+  background: #fff;
+}
+body {
+  margin: 0;
+}
+
+body.guide::before {
+  content: '';
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 50%;
+  height: 200vh;
+  width: 1280px;
+  margin-left: -640px;
+}
+
+body.baseline::before {
+  /* 베이스라인 그리드 */
+  background: linear-gradient(180deg, transparent 23px, #f06f6f 23px);
+  background-size: 1px 24px;
+}
+
+body.columns::before {
+  /* 컬럼 그리드 */
+  background: linear-gradient(90deg, hsla(21, 90%, 65%, 0.4) 50%, hsla(21, 90%, 65%, 0.2) 50%);
+  background-size: 320px 1px;
+}
+
+body.columns-baseline::before {
+  background:
+    linear-gradient(180deg, transparent 23px, #f06f6f 23px),
+    linear-gradient(90deg, hsla(21, 90%, 65%, 0.4) 50%, hsla(21, 90%, 65%, 0.2) 50%);
+  background-size: 1px 24px, 320px 1px;
+}
