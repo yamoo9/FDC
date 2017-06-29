@@ -44,7 +44,7 @@ body {
   float: left;
   width: 33.3333%;
   text-align: center;
-  background: #fff;
+  background: #efefef;
   border-right: 1px solid #dedfe5;
   border-bottom: 1px solid #dedfe5;
 }
@@ -54,6 +54,9 @@ body {
 .tablist-item:last-child {
   border-radius: 0 10px 0 0;
   border-right: 0;
+}
+.tablist-item.active {
+  background: #fff;
 }
 .tablist-item.active .tab {
   color: #12407e;
