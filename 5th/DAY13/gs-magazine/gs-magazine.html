@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Magazine Style, Grid System for Web Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/gs-magazine.css">
+  <link rel="stylesheet" href="css/gs-magazine-deco.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+<body class="guide columns-baseline">
+
+  <div class="container">
+    <div class="row">
+      <div class="column is-2">
+        <img class="symbol" role="presentation" src="./images/Symbol.png" alt="">
+      </div>
+      <div class="column is-4">
+        <h1 class="magazine-headline">the crystal goblet</h1>
+        <p>Konsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+        <img src="./images/Lipstick.png" alt="">
+      </div>
+      <img role="presentation" src="./images/model.png" class="fixed-pos is-right-bottom" alt="">
+    </div>
+  </div>
+
+<script>
+document.onkeydown = function(e){
+  if (e.keyCode === 71 && e.shiftKey) { document.body.classList.toggle('guide'); }
+}
+</script>
+</body>
+</html>
