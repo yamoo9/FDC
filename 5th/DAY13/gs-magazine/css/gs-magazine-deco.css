@@ -8,13 +8,25 @@ body {
 }
 
 .magazine-headline {
-  width: 160px;
+  width: 470px;
   margin-top: 131px;
-  margin-bottom: 0;
+  margin-bottom: 54px;
   font-weight: 100;
   font-size: 120px;
   letter-spacing: -0.005em;
   line-height: 0.816666667;
+}
+
+.main p {
+  width: 530px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.lipstick {
+  position: relative;
+  top: -13px;
+  left: -123px;
 }
 
 .fixed-pos {
