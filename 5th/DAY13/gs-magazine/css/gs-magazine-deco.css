@@ -1,3 +1,8 @@
+::selection {
+  background: #292b2d;
+  color: #fff;
+}
+
 body {
   font: 16px/1.5 Lato, Sans-Serif;
 }
@@ -8,6 +13,8 @@ body {
 }
 
 .magazine-headline {
+  position: relative;
+  left: -9px;
   width: 470px;
   margin-top: 131px;
   margin-bottom: 54px;
@@ -17,10 +24,14 @@ body {
   line-height: 0.816666667;
 }
 
-.main p {
+.magazine p {
   width: 530px;
   margin-top: 0;
   margin-bottom: 24px;
+}
+
+.magazine img {
+  user-select: none;
 }
 
 .lipstick {

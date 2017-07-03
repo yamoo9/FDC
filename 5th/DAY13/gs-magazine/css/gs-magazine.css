@@ -1,8 +1,10 @@
 /*! gs.css @ 2017, yamoo9.net */
+
 html {
   /*font-size: 10px;*/
   background: #fff;
 }
+
 body {
   margin: 0;
 }
@@ -37,18 +39,17 @@ body.columns-baseline::before {
   background-size: 1px 24px, 320px 1px;
 }
 
-
 /* -----------------------------------------------------------------------------
- * .container 모듈
+ * container 모듈
  */
-
 .container {
   width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
+
 /* -----------------------------------------------------------------------------
- * .row, .clearfix 모듈
+ * row, clearfix 모듈
  */
 .row::after,
 .clearfix::after {
@@ -56,8 +57,9 @@ body.columns-baseline::before {
   display: block;
   clear: both;
 }
+
 /* -----------------------------------------------------------------------------
- * .column 모듈
+ * column 모듈
  */
 .column {
   float: left;
@@ -70,3 +72,15 @@ body.columns-baseline::before {
 .is-6 { width: 960px; }
 .is-7 { width: 1120px; }
 .is-8 { width: 1280px; }
+
+/* -----------------------------------------------------------------------------
+ * offset 모듈
+ */
+.is-offset-1 { margin-left: 160px; }
+.is-offset-2 { margin-left: 320px; }
+.is-offset-3 { margin-left: 480px; }
+.is-offset-4 { margin-left: 640px; }
+.is-offset-5 { margin-left: 800px; }
+.is-offset-6 { margin-left: 960px; }
+.is-offset-7 { margin-left: 1120px; }
+.is-offset-8 { margin-left: 1280px; }
