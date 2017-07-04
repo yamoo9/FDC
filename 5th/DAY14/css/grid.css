@@ -1,5 +1,31 @@
 /*! grid-1760.css @ 2017, yamoo9.net */
 
+body { margin: 0; }
+body.grid {
+  position: relative;
+}
+body.grid::before,
+body.grid::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 200vh;
+}
+body.grid::before {
+  z-index: 10000;
+  width: 100%;
+  background: linear-gradient(180deg, transparent 9px, hsla(39, 34.9%, 50.6%, 0.5) 9px);
+  background-size: 1px 10px;
+}
+body.grid::after {
+  z-index: 1000;
+  width: 1760px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, rgba(121, 255, 0, 0.22) 50%, rgba(255, 234, 0, 0.36) 50%);
+  background-size: 440px 1px;
+}
+
 /*
  * ----------------------------------------------------------------
  * Grid System Design(설계)
