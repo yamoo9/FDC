@@ -1,0 +1,65 @@
+/*! style.css @ 2017, yamoo9.net */
+::selection {
+  background: hsla(235, 100%, 66%, 0.2);
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font: 1.4rem/1.5 Dosis, Sans-Serief;
+  background: #fff;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+.done-page {
+  width: 27.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 8.4rem;
+  padding-left: 13.3333%;
+  padding-right: 13.3333%;
+}
+
+.is-done {
+  margin-bottom: 8.5rem;
+}
+.title {
+  margin-bottom: 7rem;
+  font-weight: 300;
+  font-size: 5rem;
+  line-height: 1.2;
+  color: #7d51ff;
+}
+.sub-title {
+  margin-bottom: 1.9rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.059em;
+  text-transform: uppercase;
+  color: #454553;
+}
+
+.link {
+  display: block;
+  padding: 1em 0;
+  font-size: 1.6rem;
+  -webkit-tap-highlight-color: hsla(235, 100%, 66%, 0.2);
+}
+.is-order {
+  margin-bottom: 5.2rem;
+  line-height: 1;
+  font-weight: 500;
+  color: #a3a4bd;
+}
+.is-shop {
+  letter-spacing: 0.059em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #7d51ff;
+}
