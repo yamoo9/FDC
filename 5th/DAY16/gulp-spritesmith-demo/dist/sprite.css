@@ -1,0 +1,234 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-AmericanExpress {
+  background-image: url(sprite.png);
+  background-position: -71px -150px;
+  width: 52px;
+  height: 16px;
+}
+.icon-AmericanExpress@2x {
+  background-image: url(sprite.png);
+  background-position: -78px 0px;
+  width: 104px;
+  height: 32px;
+}
+.icon-Arrow {
+  background-image: url(sprite.png);
+  background-position: -228px -17px;
+  width: 4px;
+  height: 7px;
+}
+.icon-Arrow@2x {
+  background-image: url(sprite.png);
+  background-position: -216px -49px;
+  width: 8px;
+  height: 14px;
+}
+.icon-Behance {
+  background-image: url(sprite.png);
+  background-position: -128px -184px;
+  width: 26px;
+  height: 26px;
+}
+.icon-Behance@2x {
+  background-image: url(sprite.png);
+  background-position: -52px -46px;
+  width: 52px;
+  height: 52px;
+}
+.icon-Dribbble {
+  background-image: url(sprite.png);
+  background-position: -102px -184px;
+  width: 26px;
+  height: 26px;
+}
+.icon-Dribbble@2x {
+  background-image: url(sprite.png);
+  background-position: 0px -98px;
+  width: 52px;
+  height: 52px;
+}
+.icon-Facebook {
+  background-image: url(sprite.png);
+  background-position: -76px -184px;
+  width: 26px;
+  height: 26px;
+}
+.icon-Facebook@2x {
+  background-image: url(sprite.png);
+  background-position: -52px -98px;
+  width: 52px;
+  height: 52px;
+}
+.icon-Instagram {
+  background-image: url(sprite.png);
+  background-position: -50px -184px;
+  width: 26px;
+  height: 26px;
+}
+.icon-Instagram@2x {
+  background-image: url(sprite.png);
+  background-position: -104px -46px;
+  width: 52px;
+  height: 52px;
+}
+.icon-MasterCard {
+  background-image: url(sprite.png);
+  background-position: -32px -150px;
+  width: 39px;
+  height: 23px;
+}
+.icon-MasterCard@2x {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 78px;
+  height: 46px;
+}
+.icon-PayPal {
+  background-image: url(sprite.png);
+  background-position: -117px -32px;
+  width: 36px;
+  height: 10px;
+}
+.icon-PayPal@2x {
+  background-image: url(sprite.png);
+  background-position: -104px -124px;
+  width: 72px;
+  height: 20px;
+}
+.icon-Twitter {
+  background-image: url(sprite.png);
+  background-position: -24px -184px;
+  width: 26px;
+  height: 26px;
+}
+.icon-Twitter@2x {
+  background-image: url(sprite.png);
+  background-position: 0px -46px;
+  width: 52px;
+  height: 52px;
+}
+.icon-Visa {
+  background-image: url(sprite.png);
+  background-position: -78px -32px;
+  width: 39px;
+  height: 13px;
+}
+.icon-Visa@2x {
+  background-image: url(sprite.png);
+  background-position: -104px -98px;
+  width: 78px;
+  height: 26px;
+}
+.icon-cart {
+  background-image: url(sprite.png);
+  background-position: -154px -184px;
+  width: 15px;
+  height: 20px;
+}
+.icon-cart@2x {
+  background-image: url(sprite.png);
+  background-position: -182px -36px;
+  width: 30px;
+  height: 40px;
+}
+.icon-clock {
+  background-image: url(sprite.png);
+  background-position: -169px -184px;
+  width: 17px;
+  height: 17px;
+}
+.icon-clock@2x {
+  background-image: url(sprite.png);
+  background-position: -182px -76px;
+  width: 34px;
+  height: 34px;
+}
+.icon-comments {
+  background-image: url(sprite.png);
+  background-position: -186px -184px;
+  width: 16px;
+  height: 17px;
+}
+.icon-comments@2x {
+  background-image: url(sprite.png);
+  background-position: 0px -150px;
+  width: 32px;
+  height: 34px;
+}
+.icon-face {
+  background-image: url(sprite.png);
+  background-position: -216px -17px;
+  width: 12px;
+  height: 16px;
+}
+.icon-face@2x {
+  background-image: url(sprite.png);
+  background-position: 0px -184px;
+  width: 24px;
+  height: 32px;
+}
+.icon-headset {
+  background-image: url(sprite.png);
+  background-position: -216px 0px;
+  width: 16px;
+  height: 17px;
+}
+.icon-headset@2x {
+  background-image: url(sprite.png);
+  background-position: -182px -110px;
+  width: 32px;
+  height: 34px;
+}
+.icon-lock {
+  background-image: url(sprite.png);
+  background-position: -216px -33px;
+  width: 12px;
+  height: 16px;
+}
+.icon-lock@2x {
+  background-image: url(sprite.png);
+  background-position: -156px -46px;
+  width: 24px;
+  height: 32px;
+}
+.icon-select {
+  background-image: url(sprite.png);
+  background-position: -224px -49px;
+  width: 7px;
+  height: 4px;
+}
+.icon-select@2x {
+  background-image: url(sprite.png);
+  background-position: -216px -63px;
+  width: 14px;
+  height: 8px;
+}
+.icon-wishlist {
+  background-image: url(sprite.png);
+  background-position: -156px -78px;
+  width: 17px;
+  height: 18px;
+}
+.icon-wishlist@2x {
+  background-image: url(sprite.png);
+  background-position: -182px 0px;
+  width: 34px;
+  height: 36px;
+}

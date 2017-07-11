@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wykhq5');
+  src:  url('fonts/icomoon.eot?wykhq5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wykhq5') format('truetype'),
+    url('fonts/icomoon.woff?wykhq5') format('woff'),
+    url('fonts/icomoon.svg?wykhq5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amex:before {
+  content: "\e900";
+}
+.icon-arrow:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-behance .path1:before {
+  content: "\e902";
+  color: rgb(23, 105, 255);
+}
+.icon-behance .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cart:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-clock:before {
+  content: "\e905";
+  color: #5b5d69;
+}
+.icon-comments:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-dribbble .path1:before {
+  content: "\e907";
+  color: rgb(155, 165, 168);
+}
+.icon-dribbble .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-face:before {
+  content: "\e909";
+}
+.icon-facebook .path1:before {
+  content: "\e90a";
+  color: rgb(59, 89, 152);
+}
+.icon-facebook .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-headset:before {
+  content: "\e90c";
+}
+.icon-instagram .path1:before {
+  content: "\e90d";
+  color: rgb(63, 114, 155);
+}
+.icon-instagram .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lock:before {
+  content: "\e90f";
+}
+.icon-mastercard:before {
+  content: "\e910";
+}
+.icon-paypal:before {
+  content: "\e911";
+}
+.icon-select:before {
+  content: "\e912";
+  color: #e36556;
+}
+.icon-twitter .path1:before {
+  content: "\e913";
+  color: rgb(85, 172, 238);
+}
+.icon-twitter .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-visa:before {
+  content: "\e915";
+}
+.icon-wishlist:before {
+  content: "\e916";
+  color: #fff;
+}

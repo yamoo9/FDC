@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #dedede;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 70%;
+  height: 450px;
+  box-shadow: 0 2px 30px 2px rgba(0,0,0,0.2);
+}
+
+.item {
+  flex: 0 0 33.3333%;
+  height: 100%;
+  background: linear-gradient(164deg, #fff, #dedede);
+  font-size: 24px;
+  color: #434343;
+}
+
+.is-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

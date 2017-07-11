@@ -1,0 +1,10 @@
+{
+  "name": "gulp-spritesmith-demo",
+  "version": "0.1.0",
+  "description": "Gulp 테스크 러너를 활용한 CSS 스프라이트 이미지 만들기 데모",
+  "author": "yamoo9",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.5.1"
+  }
+}

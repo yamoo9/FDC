@@ -1,0 +1,38 @@
+.hide {
+  display: none;
+}
+
+.demo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background: #333;*/
+}
+.sprite-zone {
+  width: 117px;
+  height: 78px;
+  padding: 1em;
+  background: #fff;
+}
+.sprite-zone::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.sprite {
+  float: left;
+  width: 39px;
+  height: 26px;
+  background-image: url("../assets/spire-handmade.png");
+}
+.sprite.is-facebook   { background-position: 0 0;         }
+.sprite.is-behance    { background-position: 0 -26px;     }
+.sprite.is-dribbble   { background-position: 0 -52px;     }
+.sprite.is-clock      { background-position: -39px 0px;   }
+.sprite.is-paypal     { background-position: -78px 0px;   }
+.sprite.is-instagram  { background-position: -117px 0px;  }
+.sprite.is-mastercard { background-position: -78px 0px;   }
+.sprite.is-visa       { background-position: -78px -26px; }
+.sprite.is-twitter    { background-position: -78px -52px; }
+

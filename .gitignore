@@ -3,6 +3,7 @@
 .vscode/
 __/
 Resources/UI Kit/Phoenix Startup/Photoshop/
+node_modules/
 *.key
 
 

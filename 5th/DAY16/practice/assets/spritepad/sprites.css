@@ -1,0 +1,64 @@
+.behance, .facebook, .instagram, .mastercard, .paypal, .twitter, .face, .headset, .lock, .select{
+	background: url(sprites.png) no-repeat;
+}
+
+.behance{
+	background-position: 0 0;
+	width: 26px;
+	height: 26px;
+}
+
+.facebook{
+	background-position: -47px -24px ;
+	width: 26px;
+	height: 26px;
+}
+
+.instagram{
+	background-position: -28px 0;
+	width: 26px;
+	height: 26px;
+}
+
+.mastercard{
+	background-position: -3px -28px ;
+	width: 39px;
+	height: 23px;
+}
+
+.paypal{
+	background-position: -60px -8px ;
+	width: 36px;
+	height: 10px;
+}
+
+.twitter{
+	background-position: -74px -24px ;
+	width: 26px;
+	height: 26px;
+}
+
+.face{
+	background-position: -100px -10px ;
+	width: 12px;
+	height: 16px;
+}
+
+.headset{
+	background-position: -104px -31px ;
+	width: 16px;
+	height: 17px;
+}
+
+.lock{
+	background-position: -115px -2px ;
+	width: 12px;
+	height: 16px;
+}
+
+.select{
+	background-position: -101px -2px ;
+	width: 7px;
+	height: 4px;
+}
+
