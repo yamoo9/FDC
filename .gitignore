@@ -2,6 +2,7 @@
 .idea/
 .vscode/
 __/
+__Large Files__/
 Resources/UI Kit/Phoenix Startup/Photoshop/
 node_modules/
 *.key
