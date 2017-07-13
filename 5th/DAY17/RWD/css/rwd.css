@@ -1,0 +1,58 @@
+/*! rwd.css @ 2017, yamoo9.net */
+body {
+  background: #fff;
+}
+body, figure {
+  margin: 0;
+}
+img, video {
+  vertical-align: bottom;
+}
+
+/* --------------------------------------------
+ * 사용자 정의 디자인
+ */
+.hide {
+  display: none;
+}
+.demo {
+  /* padding: 30px; */
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-wrapper, .video-wrapper {
+  margin-bottom: 20px;
+  border: 5px solid #eee;
+}
+
+/* 배경이미지 반응형 처리 */
+.green-leap {
+  background:
+    url("https://unsplash.it/800/420/?image=18") no-repeat;
+  /* 420/800*100% */
+  /* 높이/너비 x 100% */
+  padding-top: 52.5%;
+}
+
+.fork {
+  background:
+    url("https://unsplash.it/916/743/?image=23") no-repeat;
+  padding-bottom: 81.113537118%;
+}
+
+/* -------------------------------------------
+ * 반응형 웹 디자인 클래스(모듈)
+ */
+
+/* e.g) content image */
+.rwd-img, .rwd-video {
+  width: 100%;
+  height: auto;
+}
+/* e.g) background iamge */
+.rwd-bg {
+  width: 100%;
+  height: 0;
+  background-size: cover;
+}
