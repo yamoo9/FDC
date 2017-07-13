@@ -45,6 +45,7 @@ img, video {
   height: 100vh;
   background: #e0e0e0;
 }
+
 .big-header-title {
   position: absolute;
   z-index: 100;
@@ -60,6 +61,32 @@ img, video {
 .cracker {
   background:
     url("../images/matt-palmer.jpg") no-repeat center top;
+}
+
+/* 이미지 스케일 업 모듈 */
+.scale-up {
+  display: inline-block;
+  width: 140px;
+  height: 200px;
+}
+.scale-up .scale-wrap {
+  position: relative;
+  overflow: hidden;
+  height: inherit;
+}
+.scale-up .scale-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.scale-up .scale-img {
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.scale-up:hover .scale-img {
+  transform: scale(1.2);
 }
 
 /* -------------------------------------------
