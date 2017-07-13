@@ -17,9 +17,9 @@ img, video {
 }
 .demo {
   /* padding: 30px; */
-  max-width: 960px;
+  /* max-width: 960px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .img-wrapper, .video-wrapper {
   margin-bottom: 20px;
@@ -41,6 +41,27 @@ img, video {
   padding-bottom: 81.113537118%;
 }
 
+.big-header {
+  height: 100vh;
+  background: #e0e0e0;
+}
+.big-header-title {
+  position: absolute;
+  z-index: 100;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 50px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.cracker {
+  background:
+    url("../images/matt-palmer.jpg") no-repeat center top;
+}
+
 /* -------------------------------------------
  * 반응형 웹 디자인 클래스(모듈)
  */
@@ -55,4 +76,15 @@ img, video {
   width: 100%;
   height: 0;
   background-size: cover;
+}
+/* e.g) crop image */
+.crop-img-wrapper {
+  overflow: hidden;
+  position: relative;
+  height: inherit;
+}
+.crop-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
