@@ -39,16 +39,18 @@ $ git lfs track "*.psd"
 
 ## 4. Git Push
 
+푸쉬(Push) 명령을 수행하면 Git LFS 적용이 된 대용량 파일이 분할 관리되어 업로드 되는 것을 확인할 수 있습니다.
+
 ```sh
 # git push origin master
 $ git push
 ```
 
+![](../../Assets/Git-LFS.jpg)
+
 ## 5. BFG Repo-Cleaner 적용
 
-기존 Commit에서 50MB 보다 큰 대용량 파일의 로그가 있다면 이를 제거해야 합니다. [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)를 이용하면 손쉽게 제거할 수 있습니다.
-
-공식 사이트에서 `bfq-x.x.x.jar`(버전: x.x.x)를 다운로드 받은 후, 대상이 되는 Repository에서 다음과 같은 명령을 수행합니다.
+기존 Commit에서 50MB 보다 큰 대용량 파일의 로그가 있다면 이를 제거해야 합니다. [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)를 이용하면 손쉽게 제거할 수 있습니다. 공식 사이트에서 `bfq-x.x.x.jar`(버전: x.x.x)를 다운로드 받은 후, 대상이 되는 Repository에서 다음과 같은 명령을 수행합니다.
 
 ```sh
 # bfg-x.x.x.jar 다운로드 받은 버전(x.x.x) 입력 후, 명령을 입력합니다.
@@ -57,7 +59,3 @@ $ java -jar bfg-x.x.x.jar --strip-blobs-bigger-than 50M
 # 오류 발생 시, 아래 명령을 먼저 실행한 후 위 명령을 다시 시도합니다.
 $ git repack && git gc
 ```
-
----
-
-[Github에 100MB 이상의 파일을 올리는 방법](https://goo.gl/rciqsX)
