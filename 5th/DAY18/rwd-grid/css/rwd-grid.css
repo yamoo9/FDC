@@ -1,1 +1,33 @@
 /*! rwd-grid.css @ 2017, yamoo9.net */
+
+/* GS 설계
+ *
+ * flexbox
+ * grid
+ * > float
+ *
+ * > container
+ * > row(columns)
+ * > col(column)
+ * > is-{1,12}
+ * > is-offset-{1,11}
+ *
+ * > Mobile First
+ *
+ * > 500 (xs) m
+ * > 800 (m) t
+ * > 1200 (l) d
+ */
+
+/* Mobile View: 500 이하 */
+@media screen and (max-width: 500px) {
+  body::before { content: 'Mobile'; }
+}
+/* Tablet View: 800 이하 */
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  body::before { content: 'Tablet'; }
+}
+/* Desktop View: 1200 이하 */
+@media screen and (min-width: 801px) {
+  body::before { content: 'Desktop'; }
+}
