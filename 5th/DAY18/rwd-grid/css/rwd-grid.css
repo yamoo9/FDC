@@ -2,8 +2,8 @@
 
 /* GS 설계
  *
- * flexbox
- * grid
+ *   flexbox
+ *   grid
  * > float
  *
  * > container
@@ -19,28 +19,113 @@
  * > 1200 (l) d
  */
 
-body, body * {
-  transition: all 0.4s ease-out;
+
+/* Common Design */
+html {
+  font-size: 10px;
+  line-height: 1.5;
+}
+body, body *,
+body::before, body::after,
+body *::before, body *::after {
+  /* transition: all 0.4s ease-out; */
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row::after, .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 100%;
+}
+/* Mobile View: [12] 500 이하 */
+@media screen and (max-width: 500px) {
+  .is-hidden { display: none !important; }
 }
 
-/* Mobile View: 500 이하 */
-@media screen and (max-width: 500px) {
-  body { background: #4dc995; }
-  body::before {
-    content: 'Mobile';
-  }
-}
-/* Tablet View: 800 이하 */
+.is-1  { width: calc(1/12 * 100%);  }
+.is-2  { width: calc(2/12 * 100%);  }
+.is-3  { width: calc(3/12 * 100%);  }
+.is-4  { width: calc(4/12 * 100%);  }
+.is-5  { width: calc(5/12 * 100%);  }
+.is-6  { width: calc(6/12 * 100%);  }
+.is-7  { width: calc(7/12 * 100%);  }
+.is-8  { width: calc(8/12 * 100%);  }
+.is-9  { width: calc(9/12 * 100%);  }
+.is-10 { width: calc(10/12 * 100%); }
+.is-11 { width: calc(11/12 * 100%); }
+.is-o-1  { margin-left: calc(1/12 * 100%);  }
+.is-o-2  { margin-left: calc(2/12 * 100%);  }
+.is-o-3  { margin-left: calc(3/12 * 100%);  }
+.is-o-4  { margin-left: calc(4/12 * 100%);  }
+.is-o-5  { margin-left: calc(5/12 * 100%);  }
+.is-o-6  { margin-left: calc(6/12 * 100%);  }
+.is-o-7  { margin-left: calc(7/12 * 100%);  }
+.is-o-8  { margin-left: calc(8/12 * 100%);  }
+.is-o-9  { margin-left: calc(9/12 * 100%);  }
+.is-o-10 { margin-left: calc(10/12 * 100%); }
+.is-o-11 { margin-left: calc(11/12 * 100%); }
+
+
+/* Tablet View: [12] 800 이하 */
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  body { background: #fed761; }
-  body::before {
-    content: 'Tablet';
-  }
+  .is-t-1  { width: calc(1/12 * 100%);  }
+  .is-t-2  { width: calc(2/12 * 100%);  }
+  .is-t-3  { width: calc(3/12 * 100%);  }
+  .is-t-4  { width: calc(4/12 * 100%);  }
+  .is-t-5  { width: calc(5/12 * 100%);  }
+  .is-t-6  { width: calc(6/12 * 100%);  }
+  .is-t-7  { width: calc(7/12 * 100%);  }
+  .is-t-8  { width: calc(8/12 * 100%);  }
+  .is-t-9  { width: calc(9/12 * 100%);  }
+  .is-t-10 { width: calc(10/12 * 100%); }
+  .is-t-11 { width: calc(11/12 * 100%); }
+  .is-o-t-1  { margin-left: calc(1/12 * 100%);  }
+  .is-o-t-2  { margin-left: calc(2/12 * 100%);  }
+  .is-o-t-3  { margin-left: calc(3/12 * 100%);  }
+  .is-o-t-4  { margin-left: calc(4/12 * 100%);  }
+  .is-o-t-5  { margin-left: calc(5/12 * 100%);  }
+  .is-o-t-6  { margin-left: calc(6/12 * 100%);  }
+  .is-o-t-7  { margin-left: calc(7/12 * 100%);  }
+  .is-o-t-8  { margin-left: calc(8/12 * 100%);  }
+  .is-o-t-9  { margin-left: calc(9/12 * 100%);  }
+  .is-o-t-10 { margin-left: calc(10/12 * 100%); }
+  .is-o-t-11 { margin-left: calc(11/12 * 100%); }
+  .is-t-hidden { display: none !important; }
 }
-/* Desktop View: 1200 이하 */
+/* Desktop View: [12] 1200 이하 */
 @media screen and (min-width: 801px) {
-  body { background: #3273dc; }
-  body::before {
-    content: 'Desktop';
-  }
+  .is-d-1  { width: calc(1/12 * 100%);  }
+  .is-d-2  { width: calc(2/12 * 100%);  }
+  .is-d-3  { width: calc(3/12 * 100%);  }
+  .is-d-4  { width: calc(4/12 * 100%);  }
+  .is-d-5  { width: calc(5/12 * 100%);  }
+  .is-d-6  { width: calc(6/12 * 100%);  }
+  .is-d-7  { width: calc(7/12 * 100%);  }
+  .is-d-8  { width: calc(8/12 * 100%);  }
+  .is-d-9  { width: calc(9/12 * 100%);  }
+  .is-d-10 { width: calc(10/12 * 100%); }
+  .is-d-11 { width: calc(11/12 * 100%); }
+  .is-o-d-1  { margin-left: calc(1/12 * 100%);  }
+  .is-o-d-2  { margin-left: calc(2/12 * 100%);  }
+  .is-o-d-3  { margin-left: calc(3/12 * 100%);  }
+  .is-o-d-4  { margin-left: calc(4/12 * 100%);  }
+  .is-o-d-5  { margin-left: calc(5/12 * 100%);  }
+  .is-o-d-6  { margin-left: calc(6/12 * 100%);  }
+  .is-o-d-7  { margin-left: calc(7/12 * 100%);  }
+  .is-o-d-8  { margin-left: calc(8/12 * 100%);  }
+  .is-o-d-9  { margin-left: calc(9/12 * 100%);  }
+  .is-o-d-10 { margin-left: calc(10/12 * 100%); }
+  .is-o-d-11 { margin-left: calc(11/12 * 100%); }
+  .is-d-hidden { display: none !important; }
 }

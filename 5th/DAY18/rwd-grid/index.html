@@ -6,8 +6,38 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>반응형 웹 디자인 그리드 시스템(RWD Grid System)</title>
   <link rel="stylesheet" href="css/rwd-grid.css">
+  <style>
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    font-size: 2rem;
+    /* border: 1px solid #eee; */
+    color: #fff;
+  }
+  .is-o { background: #fed761; }
+  .is-n { background: #3273dc; }
+  .is-e { background: #00d1b2; }
+  .is-j { background: #51d1ed; }
+  .is-p { background: #f76c9a; }
+  .is-k { background: #8a54cf; }
+  </style>
 </head>
 <body>
 
+  <div class="container">
+    <div class="row">
+      <div class="is-o box column is-4 is-t-hidden is-d-6">1</div>
+      <div class="is-n box column is-hidden is-t-6 is-d-6">2</div>
+      <div class="is-e box column is-8 is-t-3 is-o-t-3 is-d-hidden">3</div>
+    </div>
+    <div class="row">
+      <div class="is-j box column is-4 is-d-2">5</div>
+      <div class="is-p box column is-4 is-d-8">6</div>
+      <div class="is-k box column is-4 is-d-2">7</div>
+    </div>
+  </div>
+
 </body>
-</html>
+</html
