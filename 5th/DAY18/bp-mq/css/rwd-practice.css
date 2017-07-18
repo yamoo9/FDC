@@ -1,1 +1,52 @@
 /*! rwd-practice.css @ 2017, yamoo9.net */
+
+/* 중단점 설계 */
+/* [O] Content First: 중요한 것은 기기가 아니라, 결국은 콘텐츠이다. - AMP, PWA */
+/* [O] Mobile First: 모바일 환경 우선 고려 */
+/* [X] Desktop First: 데스크탑 환경 우선 고려 */
+
+/* 모바일 기기 */
+/* 폰의 기본 배율(x1) => 사용자 조사, 환경 분석, 통계(데이터 기반으로 전략 수립, 디자인 컨셉 도출) */
+/* 0 - 320 - [480] - 640 - 800 - [960] - 1024 - [1240] - 1440 - 1600 - 1920 */
+/* 설정된 중단점: 480, 960, 1240 */
+
+/* 미디어쿼리 설정 */
+/* 조건: 사용자의 환경이 스크린 일 경우 스타일 적용 */
+@media screen {
+  body {
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.1;
+    transition: all 1s ease-in-out;
+  }
+  a[href] {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+/* 조건: 사용자의 환경이 프린트 일 경우 스타일 적용 */
+@media print {
+  body {
+    height: 29.7cm;
+    background: #fff;
+    color: #000;
+  }
+  a[href] {
+    color: #000;
+    text-decoration: none;
+  }
+  a[href]::after {
+    content: '(' attr(href) ')';
+  }
+}
+
+/* 중단점을 고려한 레이아웃 변경 */
+@media screen and (min-width: 960px) {
+  body {
+    background: #bfa8f5;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
