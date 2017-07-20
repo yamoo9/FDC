@@ -1,1 +1,348 @@
 /*! grid.css @ 2017, yamoo9.net */
+.container, .grid {
+  position: relative;
+  width: 960px;
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:before, .container::before, .grid:before, .grid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, transparent 95%, rgba(239, 64, 15, 0.5) 95%), linear-gradient(90deg, transparent 12.5%, rgba(239, 64, 15, 0.25) 12.5%, rgba(239, 64, 15, 0.25) 87.5%, transparent 87.5%);
+  background-size: 24px 24px, 80px 80px;
+  background-size: 1.5rem 1.5rem, 5rem 5rem;
+  transition: height 0.2s ease-out;
+}
+
+.container.guide-10:before, .container.guide-10::before, .grid.guide-10:before, .grid.guide-10::before {
+  background-size: 10px 10px, 80px 80px;
+  background-size: 0.625rem 0.625rem, 5rem 5rem;
+}
+
+.container.guide:hover:before, .container.guide:hover::before, .container.show-guide:before, .container.show-guide::before, .grid.guide:hover:before, .grid.guide:hover::before, .grid.show-guide:before, .grid.show-guide::before {
+  height: 100vh;
+}
+
+.row:after, .row::after, .clearfix:after, .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 10px;
+  margin-left: 0.625rem;
+  margin-right: 10px;
+  margin-right: 0.625rem;
+}
+
+.col-1 {
+  width: 60px;
+  width: 3.75rem;
+}
+
+.col-2 {
+  width: 140px;
+  width: 8.75rem;
+}
+
+.col-3 {
+  width: 220px;
+  width: 13.75rem;
+}
+
+.col-4 {
+  width: 300px;
+  width: 18.75rem;
+}
+
+.col-5 {
+  width: 380px;
+  width: 23.75rem;
+}
+
+.col-6 {
+  width: 460px;
+  width: 28.75rem;
+}
+
+.col-7 {
+  width: 540px;
+  width: 33.75rem;
+}
+
+.col-8 {
+  width: 620px;
+  width: 38.75rem;
+}
+
+.col-9 {
+  width: 700px;
+  width: 43.75rem;
+}
+
+.col-10 {
+  width: 780px;
+  width: 48.75rem;
+}
+
+.col-11 {
+  width: 860px;
+  width: 53.75rem;
+}
+
+.col-12 {
+  width: 940px;
+  width: 58.75rem;
+}
+
+[class*="pre-"], [class*="post-"] {
+  position: relative;
+}
+
+.pre-1 {
+  left: 80px;
+  left: 5rem;
+}
+
+.pre-2 {
+  left: 160px;
+  left: 10rem;
+}
+
+.pre-3 {
+  left: 240px;
+  left: 15rem;
+}
+
+.pre-4 {
+  left: 320px;
+  left: 20rem;
+}
+
+.pre-5 {
+  left: 400px;
+  left: 25rem;
+}
+
+.pre-6 {
+  left: 480px;
+  left: 30rem;
+}
+
+.pre-7 {
+  left: 560px;
+  left: 35rem;
+}
+
+.pre-8 {
+  left: 640px;
+  left: 40rem;
+}
+
+.pre-9 {
+  left: 720px;
+  left: 45rem;
+}
+
+.pre-10 {
+  left: 800px;
+  left: 50rem;
+}
+
+.pre-11 {
+  left: 880px;
+  left: 55rem;
+}
+
+.pre-12 {
+  left: 960px;
+  left: 60rem;
+}
+
+.post-1 {
+  left: -80px;
+  left: -5rem;
+}
+
+.post-2 {
+  left: -160px;
+  left: -10rem;
+}
+
+.post-3 {
+  left: -240px;
+  left: -15rem;
+}
+
+.post-4 {
+  left: -320px;
+  left: -20rem;
+}
+
+.post-5 {
+  left: -400px;
+  left: -25rem;
+}
+
+.post-6 {
+  left: -480px;
+  left: -30rem;
+}
+
+.post-7 {
+  left: -560px;
+  left: -35rem;
+}
+
+.post-8 {
+  left: -640px;
+  left: -40rem;
+}
+
+.post-9 {
+  left: -720px;
+  left: -45rem;
+}
+
+.post-10 {
+  left: -800px;
+  left: -50rem;
+}
+
+.post-11 {
+  left: -880px;
+  left: -55rem;
+}
+
+.post-12 {
+  left: -960px;
+  left: -60rem;
+}
+
+.prefix-1 {
+  margin-left: 80px;
+  margin-left: 5rem;
+}
+
+.prefix-2 {
+  margin-left: 160px;
+  margin-left: 10rem;
+}
+
+.prefix-3 {
+  margin-left: 240px;
+  margin-left: 15rem;
+}
+
+.prefix-4 {
+  margin-left: 320px;
+  margin-left: 20rem;
+}
+
+.prefix-5 {
+  margin-left: 400px;
+  margin-left: 25rem;
+}
+
+.prefix-6 {
+  margin-left: 480px;
+  margin-left: 30rem;
+}
+
+.prefix-7 {
+  margin-left: 560px;
+  margin-left: 35rem;
+}
+
+.prefix-8 {
+  margin-left: 640px;
+  margin-left: 40rem;
+}
+
+.prefix-9 {
+  margin-left: 720px;
+  margin-left: 45rem;
+}
+
+.prefix-10 {
+  margin-left: 800px;
+  margin-left: 50rem;
+}
+
+.prefix-11 {
+  margin-left: 880px;
+  margin-left: 55rem;
+}
+
+.prefix-12 {
+  margin-left: 960px;
+  margin-left: 60rem;
+}
+
+.suffix-1 {
+  margin-right: 100px;
+  margin-right: 6.25rem;
+}
+
+.suffix-2 {
+  margin-right: 180px;
+  margin-right: 11.25rem;
+}
+
+.suffix-3 {
+  margin-right: 260px;
+  margin-right: 16.25rem;
+}
+
+.suffix-4 {
+  margin-right: 340px;
+  margin-right: 21.25rem;
+}
+
+.suffix-5 {
+  margin-right: 420px;
+  margin-right: 26.25rem;
+}
+
+.suffix-6 {
+  margin-right: 500px;
+  margin-right: 31.25rem;
+}
+
+.suffix-7 {
+  margin-right: 580px;
+  margin-right: 36.25rem;
+}
+
+.suffix-8 {
+  margin-right: 660px;
+  margin-right: 41.25rem;
+}
+
+.suffix-9 {
+  margin-right: 740px;
+  margin-right: 46.25rem;
+}
+
+.suffix-10 {
+  margin-right: 820px;
+  margin-right: 51.25rem;
+}
+
+.suffix-11 {
+  margin-right: 900px;
+  margin-right: 56.25rem;
+}
+
+.suffix-12 {
+  margin-right: 980px;
+  margin-right: 61.25rem;
+}

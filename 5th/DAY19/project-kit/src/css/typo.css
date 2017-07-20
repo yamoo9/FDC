@@ -1,1 +1,124 @@
 /*! typo.css @ 2017, yamoo9.net */
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, details, hr, fieldset, pre, table {
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 62px;
+  font-size: 3.875rem;
+  line-height: 1.17965;
+}
+
+h2 {
+  font-size: 49px;
+  font-size: 3.0625rem;
+  line-height: 1.47456;
+}
+
+h3 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 1.2288;
+}
+
+h4 {
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 0.768;
+}
+
+h5 {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 0.96;
+}
+
+h6 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+ul {
+  padding-left: 1em;
+  padding-left: 1rem;
+}
+
+ol {
+  padding-left: 1.6em;
+  padding-left: 1.6rem;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+hr {
+  margin: -1px 0;
+  border: 1px solid;
+}
+
+b, strong, em, small, code {
+  line-height: 1;
+}
+
+sup, sub {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+pre, code, kbd, samp {
+  font-size: 100%;
+}
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid;
+  text-align: left;
+}
+
+thead th {
+  vertical-align: bottom;
+}
