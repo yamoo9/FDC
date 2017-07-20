@@ -1,0 +1,14 @@
+{
+  "name": "front-end-design-camp--project-kit",
+  "version": "0.0.1",
+  "description": "Front End Design CAMP 프로젝트 킷",
+  "scripts": {
+    "start": "npm run imagemin && npm run serve",
+    "serve": "node_modules/.bin/live-server --port=8080 src/",
+    "imagemin": "node_modules/.bin/imagemin src/__assets__/**/* --out-dir=src/images"
+  },
+  "devDependencies": {
+    "imagemin-cli": "^3.0.0",
+    "live-server": "^1.2.0"
+  }
+}
