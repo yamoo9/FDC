@@ -1,0 +1,106 @@
+
+
+.sprite-address {
+  display: inline-block;
+  background-position: -312px -246px;
+  width: 18px;
+  height: 22px;
+  background-image: url('sprite.png');
+}
+
+.sprite-auth {
+  display: inline-block;
+  background-position: -312px -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url('sprite.png');
+}
+
+.sprite-comment {
+  display: inline-block;
+  background-position: -312px -219px;
+  width: 23px;
+  height: 22px;
+  background-image: url('sprite.png');
+}
+
+.sprite-first {
+  display: inline-block;
+  background-position: 0px 0px;
+  width: 151px;
+  height: 146px;
+  background-image: url('sprite.png');
+}
+
+.sprite-like {
+  display: inline-block;
+  background-position: -312px -163px;
+  width: 25px;
+  height: 23px;
+  background-image: url('sprite.png');
+}
+
+.sprite-liked {
+  display: inline-block;
+  background-position: -312px -135px;
+  width: 25px;
+  height: 23px;
+  background-image: url('sprite.png');
+}
+
+.sprite-post_btn {
+  display: inline-block;
+  background-position: -156px -151px;
+  width: 142px;
+  height: 142px;
+  background-image: url('sprite.png');
+}
+
+.sprite-second {
+  display: inline-block;
+  background-position: 0px -151px;
+  width: 151px;
+  height: 146px;
+  background-image: url('sprite.png');
+}
+
+.sprite-star {
+  display: inline-block;
+  background-position: -312px 0px;
+  width: 30px;
+  height: 30px;
+  background-image: url('sprite.png');
+}
+
+.sprite-third {
+  display: inline-block;
+  background-position: -156px 0px;
+  width: 151px;
+  height: 146px;
+  background-image: url('sprite.png');
+}
+
+.sprite-v_ico {
+  display: inline-block;
+  background-position: -312px -70px;
+  width: 28px;
+  height: 28px;
+  background-image: url('sprite.png');
+}
+
+.sprite-want {
+  display: inline-block;
+  background-position: -312px -191px;
+  width: 24px;
+  height: 23px;
+  background-image: url('sprite.png');
+}
+
+.sprite-wanted {
+  display: inline-block;
+  background-position: -312px -103px;
+  width: 28px;
+  height: 27px;
+  background-image: url('sprite.png');
+}
+

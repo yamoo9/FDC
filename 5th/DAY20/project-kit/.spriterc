@@ -1,0 +1,15 @@
+module.exports = {
+  aPadding: 5,               // 기본값 비어있음
+  aExtname: '.png',          // 기본값 .png | .jpg
+  aAlgorithm: 'binary-tree', // 기본값 binary-tree
+
+  aFolder: './src/__assets__/sprites',
+  styleFile: './src/sprites/sprite.css',
+  spriteFile: './src/sprites/sprite.png',
+
+  // pieces: '*@px', // 기본값 비어있음
+  prefix: 'sprite',  // 기본값 비어있음
+  connector: '-',    // 기본값 비어있음
+  processor: "css",  // 기본값 css | sass | less
+  // fix4Pieces: '@px: 320/750/16*1rem;@percent: 100/750*1%;', // 기본값 비어있음
+}

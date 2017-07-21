@@ -1,6 +1,6 @@
 {
   "name": "front-end-design-camp--project-kit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Front End Design CAMP 프로젝트 킷",
   "scripts": {
     "start": "npm run imagemin && npm run iconfont && npm run sprite && npm run serve",

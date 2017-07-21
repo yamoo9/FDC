@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG 아이콘 폰트 제너레이터</title>
+  <link rel="stylesheet" href="icons.css">
+</head>
+<body>
+
+<% for (var idx = 0; idx < glyphs.length; idx++) { %>
+<i class="icon icon--<%= glyphs[idx].name %>" aria-hidden="true"></i><% } %>
+
+</body>
+</html>

@@ -16,6 +16,5 @@ $ npm start
 
 ## 프로젝트 킷에 추가 계획된 개발 모듈
 
-- [아이콘 폰트 자동 생성 모듈](https://www.npmjs.com/package/iconfont-cli)
 - [스프라이트 이미지 자동 생성 모듈](https://www.npmjs.com/package/ysprite)
 - [SVG 스프라이트 이미지 자동 생성 모듈](https://www.npmjs.com/package/svgsprites)
